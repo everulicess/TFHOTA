@@ -3,27 +3,46 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+[RequireComponent(typeof(AudioSource), (typeof(SphereCollider)))]
 public class DialogueDispenser : MonoBehaviour
 {
+    [Header("Prefab")]
     [SerializeField]
     private GameObject promptCanvasObject;
-    [SerializeField, Range(0, 5)]
+
+    [Header("UI Config")]
+    [SerializeField, Range(0f, 5f)]
     private float displayHeight = 2f;
-    [SerializeField, Range(5, 30)]
+
+    [Header("Range Config")]
+    [SerializeField, Range(5f, 30f)]
     private float speakRange = 10f;
+    [SerializeField, Range(2f, 20f)]
+    private float promptRange = 5f;
+
+    [Header("Dialogue Config")]
+    [SerializeField]
+    private Dialogue dialogue;
+
     [HideInInspector]
     public bool isActive;
 
     private Transform player;
     private GameObject promptCanvas;
     private DialogueManager dialogueManager;
+    private AudioSource audioSource;
+    private SphereCollider promptTrigger;
 
-    [SerializeField]
-    private Dialogue dialogue;
 
     void Awake()
     {
         dialogueManager = FindObjectOfType<DialogueManager>();
+        audioSource = GetComponent<AudioSource>();
+        promptTrigger = GetComponent<SphereCollider>();
+        promptTrigger.isTrigger = true;
+        promptTrigger.radius = promptRange;
+        audioSource.loop = false;
+        audioSource.spatialBlend = 1f;
     }
 
     void Update()
@@ -83,10 +102,23 @@ public class DialogueDispenser : MonoBehaviour
         CloseDialoguePrompt();
     }
 
+    public void PlayAudio(AudioClip audio)
+    {
+        audioSource.clip = audio;
+        audioSource.Play();
+    }
+
+    public void StopAudio()
+    {
+        audioSource.Stop();
+    }
+
     //Debug Utility
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.blue;
         Gizmos.DrawWireSphere(transform.position, speakRange);
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(transform.position, promptRange);
     }
 }
