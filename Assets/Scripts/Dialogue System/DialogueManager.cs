@@ -6,13 +6,17 @@ using System.Linq;
 
 public class DialogueManager : MonoBehaviour
 {
-    public Queue<Sentence> dialogueQueue = new Queue<Sentence>();
+    public Queue<DialogueFragment> dialogueQueue = new Queue<DialogueFragment>();
+
+    [Header("References")]
     public GameObject dialogueCanvas;
 
     public TMP_Text nameText;
     public TMP_Text dialogueText;
 
     private bool inDialogue = false;
+
+    [HideInInspector]
     public DialogueDispenser currentDialoguePartner;
     public void StartDialogue(Dialogue dialogue, DialogueDispenser source)
     {
@@ -23,18 +27,18 @@ public class DialogueManager : MonoBehaviour
 
         currentDialoguePartner = source;
 
-        if(dialogue.dialogueText.Length > 0)
+        if(dialogue.dialogueFragments.Length > 0)
         {
-            foreach(Sentence sentence in dialogue.dialogueText)
+            foreach(DialogueFragment fragment in dialogue.dialogueFragments)
             {
-                dialogueQueue.Enqueue(sentence);
+                dialogueQueue.Enqueue(fragment);
             }
         }
 
-        DisplayNextSentence();
+        NextSentence();
     }
 
-    public void DisplayNextSentence()
+    public void NextSentence()
     {
         if(dialogueQueue.Count > 0)  
         {
@@ -45,8 +49,9 @@ public class DialogueManager : MonoBehaviour
                 Debug.Log("Set True");
             }
 
-            nameText.text = dialogueQueue.Peek().name + ":";
-            dialogueText.text = dialogueQueue.Dequeue().text;
+            var curFragment = dialogueQueue.Dequeue();
+            DisplaySentence(curFragment);
+            PlayAudioFragment(curFragment);
         }
         else
         {
@@ -57,12 +62,27 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
+    private void DisplaySentence(DialogueFragment fragment)
+    {
+        nameText.text = fragment.name + ":";
+        dialogueText.text = fragment.text;
+    }
+
+    private void PlayAudioFragment(DialogueFragment fragment)
+    {
+        if(fragment.dialogueAudio != null)
+        {
+            currentDialoguePartner.PlayAudio(fragment.dialogueAudio.audioClip);
+        }
+    }
+
     public void StopCurrentDialogue()
     {
         dialogueCanvas.SetActive(false);
         inDialogue = false;
         dialogueQueue.Clear();
         currentDialoguePartner.isActive = false;
+        currentDialoguePartner.StopAudio();
         currentDialoguePartner = null;
         Debug.Log("Set False");
     }
