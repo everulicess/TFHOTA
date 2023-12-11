@@ -22,7 +22,7 @@ public class DialogueDispenser : MonoBehaviour
 
     [Header("Dialogue Config")]
     [SerializeField]
-    private Dialogue dialogue;
+    private DialogueNode rootNode;
 
     [HideInInspector]
     public bool isActive;
@@ -97,14 +97,16 @@ public class DialogueDispenser : MonoBehaviour
 
     public void DisplayDialogue()
     {
-        dialogueManager.StartDialogue(dialogue, this);
+        dialogueManager.StartDialogue(rootNode, this);
         isActive = true;
         CloseDialoguePrompt();
     }
 
-    public void PlayAudio(AudioClip audio)
+    public void PlayAudio(AudioClip audio, float volume, float pitch)
     {
         audioSource.clip = audio;
+        audioSource.volume = volume;
+        audioSource.pitch = pitch;
         audioSource.Play();
     }
 
