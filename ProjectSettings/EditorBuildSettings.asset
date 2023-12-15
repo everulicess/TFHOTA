@@ -8,6 +8,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Main Scene.unity
+    guid: 2e85600fae4a8f34dbb4a4b66fb8d30e
+  - enabled: 1
+    path: Assets/Scenes/PaperCup Minigame.unity
+    guid: 117a56249cf626542b01d16a83a13c75
+  - enabled: 1
+    path: Assets/Scenes/BalloonPop Minigame.unity
+    guid: 34196e395fbcfe74dac770d37d34d695
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 6b74089aede65ed45a2142e7d4809f7d,
       type: 2}
