@@ -512,6 +512,18 @@ MonoBehaviour:
     m_Reference: {fileID: -6447266317303757838, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
   m_ButtonPressPoint: 0.5
+--- !u!114 &172742037 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1614234015134012019, guid: 17782bf78e56751429b27abed5a57b3e,
+    type: 3}
+  m_PrefabInstance: {fileID: 792292989}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &186831163
 GameObject:
   m_ObjectHideFlags: 0
@@ -1574,6 +1586,59 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 441537162}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &472956463
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 472956465}
+  - component: {fileID: 472956464}
+  m_Layer: 0
+  m_Name: BalloonPopManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &472956464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 472956463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6a25247182598b4e8d1f26b22d2bd76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  balloonPrefab: {fileID: 3243024721526247049, guid: 17782bf78e56751429b27abed5a57b3e,
+    type: 3}
+  balloonText:
+  - Slaaayyyyy
+  - Hello everyone!
+  - give me give me
+  - Hi Eric
+  balloonsAmount: 16
+  score: 0
+--- !u!4 &472956465
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 472956463}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &515572205
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2693,12 +2758,12 @@ PrefabInstance:
     - target: {fileID: 1154973293083922237, guid: 17782bf78e56751429b27abed5a57b3e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.5
+      value: 0.221
       objectReference: {fileID: 0}
     - target: {fileID: 1154973293083922237, guid: 17782bf78e56751429b27abed5a57b3e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.374
       objectReference: {fileID: 0}
     - target: {fileID: 1154973293083922237, guid: 17782bf78e56751429b27abed5a57b3e,
         type: 3}
@@ -2740,6 +2805,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Balloon
       objectReference: {fileID: 0}
+    - target: {fileID: 6879554003076234938, guid: 17782bf78e56751429b27abed5a57b3e,
+        type: 3}
+      propertyPath: balloonText
+      value: 
+      objectReference: {fileID: 172742037}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7413,66 +7483,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8858587555353964270, guid: 3300e04a14b85424ea805f401dab89e9,
-        type: 3}
-      propertyPath: m_ThrowVelocityScale
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 8858587555353964270, guid: 3300e04a14b85424ea805f401dab89e9,
-        type: 3}
-      propertyPath: m_ThrowSmoothingCurve.m_Curve.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8858587555353964270, guid: 3300e04a14b85424ea805f401dab89e9,
-        type: 3}
-      propertyPath: m_ThrowSmoothingCurve.m_Curve.Array.data[0].time
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8858587555353964270, guid: 3300e04a14b85424ea805f401dab89e9,
-        type: 3}
-      propertyPath: m_ThrowSmoothingCurve.m_Curve.Array.data[1].time
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8858587555353964270, guid: 3300e04a14b85424ea805f401dab89e9,
-        type: 3}
-      propertyPath: m_ThrowSmoothingCurve.m_Curve.Array.data[0].value
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8858587555353964270, guid: 3300e04a14b85424ea805f401dab89e9,
-        type: 3}
-      propertyPath: m_ThrowSmoothingCurve.m_Curve.Array.data[1].value
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8858587555353964270, guid: 3300e04a14b85424ea805f401dab89e9,
-        type: 3}
-      propertyPath: m_ThrowSmoothingCurve.m_Curve.Array.data[0].inSlope
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8858587555353964270, guid: 3300e04a14b85424ea805f401dab89e9,
-        type: 3}
-      propertyPath: m_ThrowSmoothingCurve.m_Curve.Array.data[1].inSlope
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8858587555353964270, guid: 3300e04a14b85424ea805f401dab89e9,
-        type: 3}
-      propertyPath: m_ThrowSmoothingCurve.m_Curve.Array.data[0].outSlope
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8858587555353964270, guid: 3300e04a14b85424ea805f401dab89e9,
-        type: 3}
-      propertyPath: m_ThrowSmoothingCurve.m_Curve.Array.data[1].outSlope
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8858587555353964270, guid: 3300e04a14b85424ea805f401dab89e9,
-        type: 3}
-      propertyPath: m_ThrowSmoothingCurve.m_Curve.Array.data[0].tangentMode
-      value: 34
-      objectReference: {fileID: 0}
-    - target: {fileID: 8858587555353964270, guid: 3300e04a14b85424ea805f401dab89e9,
-        type: 3}
-      propertyPath: m_ThrowSmoothingCurve.m_Curve.Array.data[1].tangentMode
-      value: 34
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
