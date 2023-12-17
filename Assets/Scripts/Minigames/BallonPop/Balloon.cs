@@ -12,7 +12,15 @@ public class Balloon : MonoBehaviour
     void Start()
     {
         gameManager = FindObjectOfType<BalloonManager>();
-        gameManager.AssignText(this);
+        gameManager.GetText(this);
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Dart"))
+        {
+            gameManager.DisplayResultText(balloonText.text);
+            this.gameObject.SetActive(false);
+        }
+    }
 }

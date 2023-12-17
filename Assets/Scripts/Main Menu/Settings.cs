@@ -5,9 +5,20 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class Settings : MonoBehaviour
 {
+    bool isGameStarted = false;
     [Header("Movement")]
     public ActionBasedContinuousMoveProvider continuousMov;
     public TeleportationProvider teleport;
+    private void Start()
+    {
+        if (!isGameStarted)
+        {
+            SetMoveFromIndex(0);
+            SetTurnFromIndex(0);
+        }
+        isGameStarted = true;
+        
+    }
     public void SetMoveFromIndex(int index)
     {
         if (index == 0)

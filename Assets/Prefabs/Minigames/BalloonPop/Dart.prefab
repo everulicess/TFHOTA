@@ -130,7 +130,7 @@ Transform:
   m_GameObject: {fileID: 5734289872728630984}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.6770775, y: 0.47395423, z: 0.90277}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 511280563896575432}
@@ -149,10 +149,10 @@ GameObject:
   - component: {fileID: 8488282475586477229}
   - component: {fileID: 4922405341811846302}
   - component: {fileID: 8858587555353964270}
-  - component: {fileID: 5615865010115939542}
+  - component: {fileID: 2982896779901556765}
   m_Layer: 0
   m_Name: Dart
-  m_TagString: Untagged
+  m_TagString: Dart
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -171,7 +171,7 @@ Transform:
   m_Children:
   - {fileID: 7096569676295798603}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &4922405341811846302
 Rigidbody:
@@ -361,8 +361,8 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
---- !u!136 &5615865010115939542
-CapsuleCollider:
+--- !u!65 &2982896779901556765
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -379,11 +379,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.1
-  m_Height: 0.2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  serializedVersion: 3
+  m_Size: {x: 0.07996461, y: 0.114195764, z: 0.25159204}
+  m_Center: {x: -0.0014067739, y: 0.004565984, z: 0.02532202}
 --- !u!1 &8895600788054155653
 GameObject:
   m_ObjectHideFlags: 0
