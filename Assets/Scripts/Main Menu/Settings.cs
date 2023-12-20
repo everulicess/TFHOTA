@@ -9,6 +9,10 @@ public class Settings : MonoBehaviour
     [Header("Movement")]
     public ActionBasedContinuousMoveProvider continuousMov;
     public TeleportationProvider teleport;
+    [Tooltip("drag here the object for Right Hand Teleportation Ray")]
+    public GameObject RightTeleportRay;
+    [Tooltip("drag here the object for Left Hand Teleportation Ray")]
+    public GameObject LeftTeleportRay;
     private void Start()
     {
         if (!isGameStarted)
@@ -24,18 +28,25 @@ public class Settings : MonoBehaviour
         if (index == 0)
         {
             continuousMov.enabled = true;
-            teleport.enabled = false;
+            TeleportationActivation(false);
         }
         else if (index == 1)
         {
             continuousMov.enabled = false;
-            teleport.enabled = true;
+            TeleportationActivation(true);
         }
         else if (index == 2)
         {
             continuousMov.enabled = true;
-            teleport.enabled = true;
+            TeleportationActivation(true);
         }
+    }
+
+    private void TeleportationActivation(bool _activate)
+    {
+        teleport.enabled = _activate;
+        LeftTeleportRay.GetComponent<XRRayInteractor>().enabled = (_activate);
+        RightTeleportRay.GetComponent<XRRayInteractor>().enabled = (_activate);
     }
     [Header("Turn")]
     public ActionBasedContinuousTurnProvider continuousTurn;

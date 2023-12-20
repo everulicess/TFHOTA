@@ -16,7 +16,7 @@ public class BalloonPoppingDevice : MonoBehaviour
         grabbable.activated.AddListener(FireBullet);
     }
 
-    int timesFired = 4;
+    public int timesFired = 0;
 
     public void FireBullet(ActivateEventArgs arg)
     {

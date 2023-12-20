@@ -10356,6 +10356,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   continuousMov: {fileID: 2058226543}
   teleport: {fileID: 2058226546}
+  RightTeleportRay: {fileID: 673576918}
+  LeftTeleportRay: {fileID: 183732622}
   continuousTurn: {fileID: 2058226547}
   snapTurn: {fileID: 2058226545}
 --- !u!1001 &657806073
