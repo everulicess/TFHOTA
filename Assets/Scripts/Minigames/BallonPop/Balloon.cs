@@ -20,6 +20,7 @@ public class Balloon : MonoBehaviour
         if (other.CompareTag("Dart"))
         {
             gameManager.DisplayResultText(balloonText.text);
+            Debug.Log($"has been hit: {balloonText.text}");
             this.gameObject.SetActive(false);
         }
     }
