@@ -15,7 +15,7 @@ public class SceneTransitionManager : MonoBehaviour
     {
         fadeScreen.FadeOut();
         AsyncOperation operation = SceneManager.LoadSceneAsync(sceneIndex);
-
+        Debug.LogWarning($"scene transition progrssion: {operation.progress.ToString()}");
         operation.allowSceneActivation = false;
 
         float timer = 0;

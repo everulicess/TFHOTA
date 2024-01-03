@@ -22,6 +22,7 @@ public class Balloon : MonoBehaviour
             gameManager.DisplayResultText(balloonText.text);
             Debug.Log($"has been hit: {balloonText.text}");
             this.gameObject.SetActive(false);
+            other.gameObject.SetActive(false);
         }
     }
 }

@@ -148,9 +148,11 @@ public class BalloonManager : MonoBehaviour
     public void OnAgainClicked()
     {
         gameState = GameState.Explanation;
+        Debug.Log("AGAIN WAS PRESSED");
     }
     public void OnFinishedClicked()
     {
         //change scene and stave the result
+        Debug.Log("FIINISHED WAS PRESSED");
     }
 }
