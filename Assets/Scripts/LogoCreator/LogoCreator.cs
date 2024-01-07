@@ -8,54 +8,60 @@ using System.Linq;
 public class LogoCreator : MonoBehaviour
 {
     [SerializeField]
-    private Sprite backgroundImage;
+    private LogoPresets logoPresets;
 
-    [SerializeField]
-    private Sprite[] primaryImages;
+    public Transform display;
 
-    [SerializeField]
-    private Sprite[] secondaryImages;
-
-    [SerializeField]
-    private GameObject[] texts;
-
-    [SerializeField]
-    private TMP_FontAsset[] fonts;
-
-    [SerializeField]
-    private int[] _choices = new int[] { 2, 0, 2 };
-
-    private Transform display;
+    private SpriteRenderer primary;
+    private SpriteRenderer secondary;
+    private SpriteRenderer text;
 
     private void Start()
     {
         display = transform;
-        CreateLogo(_choices);
     }
 
     public void CreateLogo(int[] choices)
     {
-        CreateImage(backgroundImage);
-        CreateImage(primaryImages[choices[0]]);
-        CreateImage(secondaryImages[choices[1]]);
-
-        var Text = Instantiate(texts[choices[2]], display).GetComponent<TMP_Text>();
-
-        if(fonts.Length > 0)
-        {
-            Text.font = fonts[choices[3]];
-        }
+        CreateImage(logoPresets.backgroundImage).sortingOrder = -1;
+        if (choices[0] != -1) { primary = CreateImage(logoPresets.primaryImages[choices[0]]); primary.sortingOrder = 0; }
+        if (choices[1] != -1) primary.color = logoPresets.primaryColors[choices[1]];
+        if (choices[2] != -1) { secondary = CreateImage(logoPresets.secondaryImages[choices[2]]); secondary.sortingOrder = 1; }
+        if (choices[3] != -1) secondary.color = logoPresets.secondaryColors[choices[3]];
+        if (choices[4] != -1) { text = CreateImage(logoPresets.textFonts[choices[4]]); text.sortingOrder = 2; }
+        if (choices[5] != -1) text.color = logoPresets.textColors[choices[5]]; ;
     }
 
-    private GameObject CreateImage(Sprite _image)
+    private SpriteRenderer CreateImage(Sprite _image)
     {
         GameObject _object = new GameObject();
-        var image = _object.AddComponent<Image>();
+        var image = _object.AddComponent<SpriteRenderer>();
         image.sprite = _image;
         _object.transform.SetParent(display);
         _object.transform.localScale = new Vector3(10, 10, 1);
         _object.transform.localPosition = new Vector3(0, 0, 0);
 
-        return _object;
+        return image;
+    }
+
+    public void ClearDisplay()
+    {
+        foreach(Transform child in display)
+        {
+            Destroy(child.gameObject);
+            primary = null;
+            secondary = null;
+            text = null;
+        }
+    }
+
+    public void HideDisplay()
+    {
+        display.gameObject.SetActive(false);
+    }
+
+    public void ShowDisplay()
+    {
+        display.gameObject.SetActive(true);
     }
 }
