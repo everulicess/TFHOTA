@@ -15,12 +15,7 @@ public class CoffeeMug : MonoBehaviour
         this.gameObject.name = name;
         mat = coffeeObject.GetComponent<Renderer>().material;
         mat.SetFloat("_Fill", -0.9f); ;
-        Debug.LogError("doing the cup thing");
     }
-    //public void FillCup(float _timeToFillCup)
-    //{
-    //    StartCoroutine()
-    //}
     
     public IEnumerator FillingCup(float _timeToFillCup)
     {
@@ -28,17 +23,10 @@ public class CoffeeMug : MonoBehaviour
         while (fill<1f)
         {
             fill += (Time.deltaTime / (_timeToFillCup+3f));
-            Debug.LogError(fill);
             mat.SetFloat("_Fill", fill);
             yield return new WaitForSeconds(0.002f);
 
         }
 
-    }
-    private float UpdateFill()
-    {
-        
-        
-        return fill;
     }
 }
