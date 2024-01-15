@@ -20,7 +20,7 @@ public class CoffeeMug : MonoBehaviour
     public IEnumerator FillingCup(float _timeToFillCup)
     {
         //Debug.LogError("is Filling The Cup NOW");
-        while (fill<1f)
+        while (fill<0.70f)
         {
             fill += (Time.deltaTime / (_timeToFillCup+3f));
             mat.SetFloat("_Fill", fill);

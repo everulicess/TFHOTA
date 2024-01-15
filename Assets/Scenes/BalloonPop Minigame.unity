@@ -11845,6 +11845,79 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e978bdacb1537f34aa7788cbefdf0fb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &5645940956184312197
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6079642768970370127, guid: 2028a4565971bf84da9d8447552d57fc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 6079642768970370127, guid: 2028a4565971bf84da9d8447552d57fc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.22665548
+      objectReference: {fileID: 0}
+    - target: {fileID: 6079642768970370127, guid: 2028a4565971bf84da9d8447552d57fc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.8858582
+      objectReference: {fileID: 0}
+    - target: {fileID: 6079642768970370127, guid: 2028a4565971bf84da9d8447552d57fc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.255
+      objectReference: {fileID: 0}
+    - target: {fileID: 6079642768970370127, guid: 2028a4565971bf84da9d8447552d57fc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6079642768970370127, guid: 2028a4565971bf84da9d8447552d57fc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6079642768970370127, guid: 2028a4565971bf84da9d8447552d57fc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6079642768970370127, guid: 2028a4565971bf84da9d8447552d57fc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6079642768970370127, guid: 2028a4565971bf84da9d8447552d57fc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6079642768970370127, guid: 2028a4565971bf84da9d8447552d57fc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6079642768970370127, guid: 2028a4565971bf84da9d8447552d57fc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6608889266939424949, guid: 2028a4565971bf84da9d8447552d57fc,
+        type: 3}
+      propertyPath: m_Name
+      value: CoffeeMachine
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2028a4565971bf84da9d8447552d57fc, type: 3}
 --- !u!1001 &8859377278962677352
 PrefabInstance:
   m_ObjectHideFlags: 0
