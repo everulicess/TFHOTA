@@ -7,14 +7,18 @@ public class Settings : MonoBehaviour
 {
     bool isGameStarted = false;
     [Header("Movement")]
-    public ActionBasedContinuousMoveProvider continuousMov;
-    public TeleportationProvider teleport;
+     ActionBasedContinuousMoveProvider continuousMov;
+     TeleportationProvider teleport;
     [Tooltip("drag here the object for Right Hand Teleportation Ray")]
     public GameObject RightTeleportRay;
     [Tooltip("drag here the object for Left Hand Teleportation Ray")]
     public GameObject LeftTeleportRay;
     private void Start()
     {
+        continuousMov = FindObjectOfType<ActionBasedContinuousMoveProvider>();
+        teleport = FindObjectOfType<TeleportationProvider>();
+        continuousTurn = FindObjectOfType<ActionBasedContinuousTurnProvider>();
+        snapTurn = FindObjectOfType<ActionBasedSnapTurnProvider>();
         if (!isGameStarted)
         {
             SetMoveFromIndex(0);
@@ -49,8 +53,8 @@ public class Settings : MonoBehaviour
         RightTeleportRay.GetComponent<XRRayInteractor>().enabled = (_activate);
     }
     [Header("Turn")]
-    public ActionBasedContinuousTurnProvider continuousTurn;
-    public ActionBasedSnapTurnProvider snapTurn;
+    ActionBasedContinuousTurnProvider continuousTurn;
+    ActionBasedSnapTurnProvider snapTurn;
     
     public void SetTurnFromIndex(int index)
     {
