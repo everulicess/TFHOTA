@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
+using TMPro;
 
 public class BalloonPoppingDevice : MonoBehaviour
 {
@@ -9,11 +10,13 @@ public class BalloonPoppingDevice : MonoBehaviour
     public Transform spawnPoint;
     public float fireSpeed = 20f;
 
+    [SerializeField] TextMeshPro bulletsAmountLeft;
     // Start is called before the first frame update
     void Start()
     {
         XRGrabInteractable grabbable = GetComponent<XRGrabInteractable>();
         grabbable.activated.AddListener(FireBullet);
+        bulletsAmountLeft.text = timesFired.ToString();
     }
 
     public int timesFired = 0;
@@ -27,7 +30,10 @@ public class BalloonPoppingDevice : MonoBehaviour
         spawnObject.transform.position = spawnPoint.position;
         spawnObject.GetComponent<Rigidbody>().velocity = spawnPoint.forward * fireSpeed;
         Destroy(spawnObject, 3f);
+
+        bulletsAmountLeft.text = timesFired.ToString();
+
     }
-        
-    
+
+
 }

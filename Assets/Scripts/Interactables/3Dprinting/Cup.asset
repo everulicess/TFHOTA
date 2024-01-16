@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 427d60f09b7fa16488f562956f80e619, type: 3}
+  m_Name: Cup
+  m_EditorClassIdentifier: 
+  ModelName: Paper Cup
+  ModelPrefab: {fileID: 5853515407169277135, guid: 1bc62da4fc8a5cc4d959baabb24027eb,
+    type: 3}
+  ModelIcon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  PrintingTime: 2

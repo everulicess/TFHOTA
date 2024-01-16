@@ -62,7 +62,7 @@ public class BalloonManager : MonoBehaviour
     {
         if (balloons.Count <= 0) return;
         balloonsCount++;
-        Debug.Log($"balloons count is: {balloonsCount}");
+        //Debug.Log($"balloons count is: {balloonsCount}");
         int stringPos = Random.Range(0, balloons.Count - 2);
         balloon.balloonText.text = balloons[stringPos];
         balloons.RemoveAt(stringPos);
@@ -106,8 +106,8 @@ public class BalloonManager : MonoBehaviour
     }
     private void HandleMinigameFlow()
     {
-        Debug.Log($"game state: {gameState}");
-        Debug.Log($"POST DESCRIPTION:  {postDescription.text}");
+        //Debug.Log($"game state: {gameState}");
+        //Debug.Log($"POST DESCRIPTION:  {postDescription.text}");
         switch (gameState)
         {
             case GameState.Explanation:
