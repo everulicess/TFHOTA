@@ -29,13 +29,10 @@ public class CupGameManager : MonoBehaviour
     [SerializeField, Range(0.1f, 1f)]
     private float raiseTime;
     [SerializeField]
-    private float previewScale = 0.2f;
-    [SerializeField]
     private float cupDistance = 2f;
     [SerializeField]
     private Transform cupsOrigin;
 
-    public static event Action onScoreUpdate;
     [HideInInspector]
     public int score;
 
@@ -113,6 +110,7 @@ public class CupGameManager : MonoBehaviour
         LowerCups();
         yield return new WaitForSeconds(0.5f);
         creator.CreateLogo(results);
+        GameData.instance.cupGameResults = results;
 
         yield break;
     }

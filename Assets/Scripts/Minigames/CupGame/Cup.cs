@@ -20,7 +20,6 @@ public class Cup : MonoBehaviour
     private Button button;
 
     public event Action onSelect;
-    public event Action onCorrectGuess;
     public GameObject preview;
 
     void Awake()
