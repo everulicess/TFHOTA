@@ -14,7 +14,7 @@ public class CoffeeMug : MonoBehaviour
     {
         this.gameObject.name = name;
         mat = coffeeObject.GetComponent<Renderer>().material;
-        mat.SetFloat("_Fill", -0.9f); ;
+        mat.SetFloat("_Fill", -1.5f); ;
     }
     
     public IEnumerator FillingCup(float _timeToFillCup)

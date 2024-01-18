@@ -15377,6 +15377,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1007270130802266970, guid: 2028a4565971bf84da9d8447552d57fc,
+        type: 3}
+      propertyPath: cupPrefab
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6079642768970370127, guid: 2028a4565971bf84da9d8447552d57fc,
         type: 3}
       propertyPath: m_RootOrder
