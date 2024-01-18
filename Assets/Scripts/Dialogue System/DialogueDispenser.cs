@@ -58,7 +58,7 @@ public class DialogueDispenser : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.tag == "Player" && dialogueManager.currentDialoguePartner != this)
+        if(other.gameObject.CompareTag("Player") && dialogueManager.currentDialoguePartner != this)
         {
             PromptDialogue();
             player = other.transform;
