@@ -43,6 +43,8 @@ public class CupGameManager : MonoBehaviour
     [HideInInspector]
     public int round = 0;
 
+    public static event Action onLogoComplete;
+
     void Start()
     {
         foreach(Cup cup in cups)
@@ -64,7 +66,7 @@ public class CupGameManager : MonoBehaviour
             StartCoroutine(ShowResults());
             return;
         }
-        RaiseCups();
+        ShowCupResults();
     }
 
     public void SetSelection(int val)
@@ -80,12 +82,18 @@ public class CupGameManager : MonoBehaviour
         }
     }
 
+    private void ShowCupResults()
+    {
+        RaiseCups();
+        isSwitching = false;
+
+    }
+
     private void RaiseCups()
     {
         foreach(Cup cup in cups)
         {
             StartCoroutine(RaiseCup(cup));
-            isSwitching = false;
         }
     }
 
@@ -108,9 +116,12 @@ public class CupGameManager : MonoBehaviour
         yield return new WaitForSeconds(2f);
 
         LowerCups();
+
         yield return new WaitForSeconds(0.5f);
+
         creator.CreateLogo(results);
         GameData.instance.cupGameResults = results;
+        onLogoComplete?.Invoke();
 
         yield break;
     }
@@ -166,7 +177,7 @@ public class CupGameManager : MonoBehaviour
         {
             RaiseCups();
 
-            yield return new WaitForSeconds(raiseTime + 2f);
+            yield return new WaitForSeconds(raiseTime + 1f);
         }
 
         round++;
