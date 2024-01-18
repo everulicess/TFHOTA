@@ -7,13 +7,13 @@ using UnityEngine.UIElements;
 using System;
 using UnityEngine.Events;
 using UnityEngine.SocialPlatforms.Impl;
+using static Unity.Burst.Intrinsics.X86.Avx;
 
 public class CupGameManager : MonoBehaviour
 {
     private List<Cup> cups = new List<Cup>();
     private Cup selectedCup;
     private bool isSwitching;
-    private int timesPlayed = 0;
 
     [Header("Gameplay config")]
     [SerializeField, Range(0.1f, 5f)]
@@ -29,44 +29,27 @@ public class CupGameManager : MonoBehaviour
     [SerializeField, Range(0.1f, 1f)]
     private float raiseTime;
     [SerializeField]
-    private float ballScale = 0.2f;
-    [SerializeField]
     private float cupDistance = 2f;
     [SerializeField]
     private Transform cupsOrigin;
 
-    public static event Action onScoreUpdate;
     [HideInInspector]
     public int score;
+
+    //Logo creation
+    public LogoCreator creator;
+
+    public int[] results = new int[] { -1, -1, -1, -1, -1, -1};
+    [HideInInspector]
+    public int round = 0;
 
     void Start()
     {
         foreach(Cup cup in cups)
         {
             cup.onSelect += OnBallSelected;
-            cup.onCorrectGuess += IncreaseScore;
         }
         PositionCups(cupsOrigin.position);
-    }
-
-    //Ball
-    private void PlaceBall()
-    {
-        selectedCup = cups[UnityEngine.Random.Range(0, cups.Count)];
-
-        foreach(Cup cup in cups)
-        {
-            cup.ball = GameObject.CreatePrimitive(PrimitiveType.Sphere);
-            cup.ball.transform.position = cup.transform.position - new Vector3(0, cup.transform.position.y - ballScale/2, 0);
-            cup.ball.transform.localScale = new Vector3(ballScale, ballScale, ballScale);
-
-            if(cup == selectedCup)
-            {
-                cup.SetBallColor(Color.green);
-            }
-
-            StartCoroutine(RaiseCup(cup));
-        }
     }
 
     private void OnBallSelected()
@@ -76,20 +59,31 @@ public class CupGameManager : MonoBehaviour
             cup.HideSelectionButton();
         }
 
-        ShowBalls();
+        if(round >= 6)
+        {
+            StartCoroutine(ShowResults());
+            return;
+        }
+        RaiseCups();
     }
 
-    private void IncreaseScore()
+    public void SetSelection(int val)
     {
-        score++;
-        onScoreUpdate?.Invoke();
+        results[round - 1] = val;
     }
 
-    private void ShowBalls()
+    private void UpdatePreviews()
+    {
+        foreach (Cup cup in cups)
+        {
+            cup.DisplayPreview();
+        }
+    }
+
+    private void RaiseCups()
     {
         foreach(Cup cup in cups)
         {
-            cup.ball.transform.position = cup.transform.position - new Vector3(0, cup.transform.position.y - ballScale/2, 0);
             StartCoroutine(RaiseCup(cup));
             isSwitching = false;
         }
@@ -103,11 +97,29 @@ public class CupGameManager : MonoBehaviour
         }
     }
 
+    private IEnumerator ShowResults()
+    {
+        foreach (Cup cup in cups)
+        {
+            StartCoroutine(RaiseCup(cup));
+            isSwitching = false;
+        }
+
+        yield return new WaitForSeconds(2f);
+
+        LowerCups();
+        yield return new WaitForSeconds(0.5f);
+        creator.CreateLogo(results);
+        GameData.instance.cupGameResults = results;
+
+        yield break;
+    }
+
     private IEnumerator RaiseCup(Cup cup)
     {
         Vector3 target = cup.transform.position + (Vector3.up * raiseHeight);
         float startTime = Time.time;
-        cup.ball.SetActive(true);
+        cup.OpenPreview();
 
         while(Time.time - startTime < raiseTime)
         {
@@ -131,9 +143,9 @@ public class CupGameManager : MonoBehaviour
             yield return null;
         }
 
-        cup.ball.SetActive(false);
+        cup.ClosePreview();
         yield break;
-    }
+    } 
 
     //Cup Shuffeling Logic
     public void Shuffle()
@@ -148,13 +160,18 @@ public class CupGameManager : MonoBehaviour
     {
         isSwitching = true;
 
+        UpdatePreviews();
 
-        if(timesPlayed == 0)
+        if (round == 0)
         {
-            PlaceBall();
+            RaiseCups();
 
             yield return new WaitForSeconds(raiseTime + 2f);
         }
+
+        round++;
+
+        yield return new WaitForSeconds(2f);
 
         LowerCups();
 
@@ -170,7 +187,7 @@ public class CupGameManager : MonoBehaviour
         {
             cup.OpenSelectionButton();
         }
-        timesPlayed++;
+
         yield break;
     }
 

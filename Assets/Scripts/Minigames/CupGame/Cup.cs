@@ -7,19 +7,31 @@ using System;
 
 public class Cup : MonoBehaviour
 {
+    [SerializeField]
+    private int cupNumber;
+
     private CupGameManager gameManager;
+
+    [SerializeField]
+    private LogoCreator creator;
+    [SerializeField]
     private GameObject selectButton;
 
+    private Button button;
+
     public event Action onSelect;
-    public event Action onCorrectGuess;
-    public GameObject ball;
+    public GameObject preview;
 
     void Awake()
     {
         gameManager = FindObjectOfType<CupGameManager>();
         gameManager.SubscribeCup(this);
-        GetComponentInChildren<Button>().onClick.AddListener(SelectCup);
-        selectButton = GetComponentInChildren<Canvas>().gameObject;
+        button = GetComponentInChildren<Button>();
+    }
+
+    void Start()
+    {
+        button.onClick.AddListener(SelectCup);
         selectButton.SetActive(false);
     }
 
@@ -32,19 +44,40 @@ public class Cup : MonoBehaviour
     public void HideSelectionButton()
     {
         selectButton.SetActive(false);
-    }   
-
-    public void SetBallColor(Color color)
+    }
+    
+    public void DisplayPreview()
     {
-        ball.GetComponent<Renderer>().material.color = color;
+        OpenPreview();
+        creator.ClearDisplay();
+        int[] tempArray = new int[] { -1, -1, -1, -1, -1, -1};
+
+        for(int i = 0; i < tempArray.Length -1; i++)
+        {
+            int value = gameManager.results[i];
+            tempArray[i] = value;
+            Debug.Log(gameManager.results[i]);
+        }
+
+        tempArray[gameManager.round] = cupNumber;
+        
+        creator.CreateLogo(tempArray);
     }
 
-    public void SelectCup()
+    public void ClosePreview()
     {
-        if(gameManager.GetSelectedCup() == this)
-        {
-            onCorrectGuess?.Invoke();
-        }
+        creator.HideDisplay();
+    }
+
+    public void OpenPreview()
+    {
+        creator.display.position = new Vector3(transform.position.x, creator.display.position.y, transform.position.z);
+        creator.ShowDisplay();
+    }
+
+    private void SelectCup()
+    {
+        gameManager.SetSelection(cupNumber);
 
         onSelect?.Invoke();
     }

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bae0a4ea62d76f94a93d345f4bf89207, type: 3}
+  m_Name: CupGame Preset
+  m_EditorClassIdentifier: 
+  backgroundImage: {fileID: 21300000, guid: 0c1c0ff73221faf40ba7438127c01773, type: 3}
+  primaryImages:
+  - {fileID: 21300000, guid: 27f688a37722f144b9d08dfe60d95805, type: 3}
+  - {fileID: 21300000, guid: 2e434dec80e87f242a603d01a26a03c7, type: 3}
+  - {fileID: 21300000, guid: 97c1d85ff851ef74cb3eb1539f202970, type: 3}
+  primaryColors:
+  - {r: 0.9150943, g: 0.60434145, b: 0.3237362, a: 1}
+  - {r: 0.5087665, g: 0.9716981, b: 0.6449362, a: 1}
+  - {r: 0, g: 0.36008072, b: 1, a: 1}
+  secondaryImages:
+  - {fileID: 21300000, guid: de53ae7a68e4a0f45bef699c2004c0a7, type: 3}
+  - {fileID: 21300000, guid: 47c24c250fa3345409fb1ec94bb7ee96, type: 3}
+  - {fileID: 21300000, guid: 755c370d12e9952418081e518c8fabb0, type: 3}
+  secondaryColors:
+  - {r: 0.9339623, g: 0.9339623, b: 0.9339623, a: 1}
+  - {r: 0.2688679, g: 0.49981222, b: 1, a: 1}
+  - {r: 0.13207549, g: 0.13207549, b: 0.13207549, a: 1}
+  textFonts:
+  - {fileID: 21300000, guid: da5ffdb9af4a1e94a940d92f8df264b9, type: 3}
+  - {fileID: 21300000, guid: c74e260a9c66b6f4e87709998bdd2164, type: 3}
+  - {fileID: 21300000, guid: 43136ac446ce08847bf4c023a7c41b9e, type: 3}
+  textColors:
+  - {r: 1, g: 0.7611719, b: 0.5801887, a: 1}
+  - {r: 0.4480497, g: 0.6698113, b: 0.37597898, a: 1}
+  - {r: 0.9339623, g: 0.8943129, b: 0.8943129, a: 1}
