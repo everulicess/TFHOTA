@@ -9,8 +9,10 @@ public class GameMenuManager : MonoBehaviour
     [SerializeField] Transform head;
     [SerializeField] float spawnDistance;
 
+    [SerializeField] GameObject menuObjectCanvas;
     [SerializeField] GameObject menuObject;
     [SerializeField] GameObject settingsObject;
+    [SerializeField] GameObject controlsObject;
     [SerializeField] InputActionProperty showMenuButtonLeft;
     [SerializeField] InputActionProperty showMenuButtonRight;
     private void Start()
@@ -19,25 +21,33 @@ public class GameMenuManager : MonoBehaviour
     }
     private void Update()
     {
-        HandleShowMenu();
-    }
 
-    private void HandleShowMenu()
-    {
         if (showMenuButtonLeft.action.WasPressedThisFrame() || showMenuButtonRight.action.WasPressedThisFrame())
         {
-            menuObject.SetActive(!menuObject.activeSelf);
+            Debug.Log("OPEN MENU");
 
-            menuObject.transform.position = head.position + new Vector3(head.forward.x, 0, head.forward.z).normalized * spawnDistance;
+            ShowMenu();
+
         }
+        menuObjectCanvas.transform.position = head.position + new Vector3(head.forward.x, 3, head.forward.z).normalized * spawnDistance;
+        menuObjectCanvas.transform.LookAt(new Vector3(head.position.x, menuObject.transform.position.y, head.position.z));
+        menuObjectCanvas.transform.forward *= -1;
+    }
 
-        menuObject.transform.LookAt(new Vector3(head.position.x, menuObject.transform.position.y, head.position.z));
-        menuObject.transform.forward *= -1;
+    public void ShowMenu()
+    {
+        menuObjectCanvas.SetActive(!menuObjectCanvas.activeSelf);
+        menuObject.SetActive(menuObjectCanvas.activeSelf);
     }
 
     public void ShowSettings()
     {
         settingsObject.SetActive(!settingsObject.activeSelf);
+    }
+
+    public void ShowControls()
+    {
+        controlsObject.SetActive(!controlsObject.activeSelf);
     }
 
 }
