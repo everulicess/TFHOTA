@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 427d60f09b7fa16488f562956f80e619, type: 3}
+  m_Name: Mug
+  m_EditorClassIdentifier: 
+  ModelName: Mug
+  ModelPrefab: {fileID: 8608284954444391698, guid: 05420696826a2554db2b5cb9cafacff5,
+    type: 3}
+  ModelIcon: {fileID: 0}
+  PrintingTime: 2
