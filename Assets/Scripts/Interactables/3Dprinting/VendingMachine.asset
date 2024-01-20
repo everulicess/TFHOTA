@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 427d60f09b7fa16488f562956f80e619, type: 3}
-  m_Name: Cup
+  m_Name: VendingMachine
   m_EditorClassIdentifier: 
-  ModelName: Paper Cup
-  ModelPrefab: {fileID: 5853515407169277135, guid: 1bc62da4fc8a5cc4d959baabb24027eb,
+  ModelName: Vending Machine
+  ModelPrefab: {fileID: 8342555529367298525, guid: 532d72a7da21d3d4880231a2c0e34656,
     type: 3}
-  ModelIcon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  PrintingTime: 2
+  ModelIcon: {fileID: 0}
+  PrintingTime: 0
