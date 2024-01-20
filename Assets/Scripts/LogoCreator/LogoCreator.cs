@@ -16,11 +16,6 @@ public class LogoCreator : MonoBehaviour
     private SpriteRenderer secondary;
     private SpriteRenderer text;
 
-    private void Start()
-    {
-        display = transform;
-    }
-
     public void CreateLogo(int[] choices)
     {
         CreateImage(logoPresets.backgroundImage).sortingOrder = -1;
@@ -38,7 +33,7 @@ public class LogoCreator : MonoBehaviour
         var image = _object.AddComponent<SpriteRenderer>();
         image.sprite = _image;
         _object.transform.SetParent(display);
-        _object.transform.localScale = new Vector3(10, 10, 1);
+        _object.transform.localScale = new Vector3(100f, 100f, 1f);
         _object.transform.localPosition = new Vector3(0, 0, 0);
 
         return image;
@@ -48,10 +43,13 @@ public class LogoCreator : MonoBehaviour
     {
         foreach(Transform child in display)
         {
-            Destroy(child.gameObject);
-            primary = null;
-            secondary = null;
-            text = null;
+            if (child != display)
+            {
+                Destroy(child.gameObject);
+                primary = null;
+                secondary = null;
+                text = null;
+            }      
         }
     }
 
