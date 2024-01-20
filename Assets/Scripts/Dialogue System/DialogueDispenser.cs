@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-[RequireComponent(typeof(AudioSource), (typeof(SphereCollider)))]
+[RequireComponent(typeof(AudioSource), (typeof(SphereCollider)), (typeof(DialogueManager)))]
 public class DialogueDispenser : MonoBehaviour
 {
     [Header("Prefab")]
@@ -36,7 +36,7 @@ public class DialogueDispenser : MonoBehaviour
 
     void Awake()
     {
-        dialogueManager = FindObjectOfType<DialogueManager>();
+        dialogueManager = GetComponent<DialogueManager>();
         audioSource = GetComponent<AudioSource>();
         promptTrigger = GetComponent<SphereCollider>();
         promptTrigger.isTrigger = true;
