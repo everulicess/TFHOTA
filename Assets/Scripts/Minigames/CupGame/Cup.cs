@@ -13,10 +13,13 @@ public class Cup : MonoBehaviour
 
     [SerializeField]
     private LogoCreator creator;
+    [SerializeField]
+    private LogoCreator screenCreator;
 
 
     public event Action onSelect;
     public GameObject preview;
+    public GameObject screenPreview;
 
     void Awake()
     {
@@ -39,6 +42,7 @@ public class Cup : MonoBehaviour
         tempArray[gameManager.round] = cupNumber;
         
         creator.CreateLogo(tempArray);
+        //screenCreator.CreateLogo(tempArray);
     }
 
     public void DisplaySelection()
@@ -56,15 +60,18 @@ public class Cup : MonoBehaviour
         tempArray[gameManager.round - 1] = cupNumber;
 
         creator.CreateLogo(tempArray);
+        //screenCreator.CreateLogo(tempArray);
     }
 
     public void ClosePreview()
     {
         creator.HideDisplay();
+        //screenCreator.HideDisplay();
     }
 
     public void OpenPreview()
     {
+        preview.transform.position = new Vector3(transform.position.x, preview.transform.position.y, transform.position.z);
         creator.ShowDisplay();
     }
 

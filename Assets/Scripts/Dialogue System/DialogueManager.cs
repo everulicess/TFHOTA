@@ -64,7 +64,6 @@ public class DialogueManager : MonoBehaviour
             {
                 dialogueCanvas.SetActive(true);
                 inDialogue = true;
-                Debug.Log("Set True");
             }
 
             var curFragment = dialogueQueue.Dequeue();
