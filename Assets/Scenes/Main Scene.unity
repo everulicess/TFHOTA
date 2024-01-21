@@ -10416,12 +10416,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2189af615563e0144b6e6c0265eee2c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  continuousMov: {fileID: 2058226543}
-  teleport: {fileID: 2058226546}
   RightTeleportRay: {fileID: 673576918}
   LeftTeleportRay: {fileID: 183732622}
-  continuousTurn: {fileID: 2058226547}
-  snapTurn: {fileID: 2058226545}
 --- !u!1001 &657806073
 PrefabInstance:
   m_ObjectHideFlags: 0
