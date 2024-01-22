@@ -21,9 +21,10 @@ public class GameMenuManager : MonoBehaviour
     [SerializeField] Slider volumeSlider;
     [SerializeField] Toggle musicToggle;
     [SerializeField] Toggle audioToggle;
+    private AudioManager audioManager;
     private void Start()
     {
-        
+        audioManager = FindObjectOfType<AudioManager>();
     }
     private void Update()
     {
@@ -37,8 +38,6 @@ public class GameMenuManager : MonoBehaviour
         menuObjectCanvas.transform.position = head.position + new Vector3(head.forward.x, 0, head.forward.z).normalized * spawnDistance;
         menuObjectCanvas.transform.LookAt(new Vector3(head.position.x, menuObject.transform.position.y, head.position.z));
         menuObjectCanvas.transform.forward *= -1;
-
-        FindObjectOfType<AudioManager>().VolumeControl(volumeSlider.value);
     }
 
     public void ShowMenu()
@@ -61,4 +60,21 @@ public class GameMenuManager : MonoBehaviour
         settingsObject.SetActive(!settingsObject.activeSelf);
         controlsObject.SetActive(!controlsObject.activeSelf);
     }
+
+    // called when changing volume
+    public void OnValueChanged()
+    {
+        audioManager.VolumeControl(volumeSlider.value);
+    }
+
+    //public void ToggleSound()
+    //{
+    //    audioManager.ToggleSound(audioToggle.isOn);
+    //    volumeSlider.enabled = audioToggle.isOn;
+    //}
+
+    //public void ToggleMusic()
+    //{
+    //    audioManager.ToggleMusic(musicToggle.isOn);
+    //}
 }

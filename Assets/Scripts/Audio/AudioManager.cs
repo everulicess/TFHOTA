@@ -10,6 +10,7 @@ public class AudioManager : MonoBehaviour
 
     public static AudioManager instance;
 
+    float mainVolume;
     void Awake()
     {
         if (instance == null)
@@ -34,6 +35,14 @@ public class AudioManager : MonoBehaviour
         }
     }
 
+    private void Update()
+    {
+        foreach (Sound s in sounds)
+        {
+            s.source.volume = mainVolume;
+        }
+    }
+
     public void Play (string name)
     {
         Sound s = Array.Find(sounds, sound => sound.name == name);
@@ -47,10 +56,34 @@ public class AudioManager : MonoBehaviour
 
     public void VolumeControl(float vol)
     {
-        foreach (Sound s in sounds)
-        {
-            s.volume = vol;
-        }
+            mainVolume = vol;
     }
+
+    //public void ToggleSound(bool check)
+    //{
+    //    if (!check)
+    //    {
+    //        mainVolume = 0;
+    //    }
+    //}
+
+    //public void ToggleMusic(bool check)
+    //{
+    //    foreach (Sound s in sounds)
+    //    {
+    //        if (!check)
+    //        {
+    //            if (!s.loop)
+    //            {
+    //                s.volume = 0;
+    //            }
+    //        }
+
+    //        else
+    //        {
+    //            s.volume = mainVolume;
+    //        }
+    //    }
+    //}
     // FindObjectOfType<AudioManager>().Play(""); use this in other scripts
 }

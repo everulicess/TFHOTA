@@ -2601,11 +2601,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   head: {fileID: 0}
-  spawnDistance: 2
+  spawnDistance: 1
   menuObjectCanvas: {fileID: 1235584987113194887}
   menuObject: {fileID: 1500558311185579651}
   settingsObject: {fileID: 7618115869515429392}
   controlsObject: {fileID: 2907381884052466232}
+  audioObject: {fileID: 0}
   showMenuButtonLeft:
     m_UseReference: 1
     m_Action:
@@ -2632,6 +2633,9 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: 3831087105511265138, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
+  volumeSlider: {fileID: 0}
+  musicToggle: {fileID: 0}
+  audioToggle: {fileID: 0}
 --- !u!1 &5087715157315199700
 GameObject:
   m_ObjectHideFlags: 0
@@ -4930,7 +4934,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.7
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
