@@ -70,7 +70,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2565534315720911105, guid: fc5afdebd4dd98c44b3103815b0d5116, type: 3}
+  - {fileID: 2100000, guid: 104b757c780a1ad4a93e624fbf6cbf4b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -106,7 +106,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cupNumber: 0
   creator: {fileID: 0}
+  screenCreator: {fileID: 0}
   preview: {fileID: 0}
+  screenPreview: {fileID: 0}
 --- !u!65 &2897655961408165030
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -257,7 +259,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 13
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1

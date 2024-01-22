@@ -43,7 +43,7 @@ public class LogoCreator : MonoBehaviour
     {
         foreach(Transform child in display)
         {
-            if (child != display)
+            if (child != display && child.gameObject.name != "background")
             {
                 Destroy(child.gameObject);
                 primary = null;

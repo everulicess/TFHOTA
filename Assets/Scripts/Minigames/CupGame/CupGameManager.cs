@@ -17,6 +17,8 @@ public class CupGameManager : MonoBehaviour
     private bool isSwitching;
     [HideInInspector]
     public bool isPicking = false;
+    [SerializeField]
+    private ButtonAnimation button;
 
     [Header("Gameplay config")]
     [SerializeField, Range(0.1f, 5f)]
@@ -35,6 +37,8 @@ public class CupGameManager : MonoBehaviour
     private float cupDistance = 2f;
     [SerializeField]
     private Transform cupsOrigin;
+    [SerializeField]
+    private string[] buttonMessages = new string[6];
 
     [HideInInspector]
     public int score;
@@ -60,12 +64,18 @@ public class CupGameManager : MonoBehaviour
     private void OnBallSelected()
     {
         PreviewSelection();
+
         
         if(round >= 6)
         {
             StartCoroutine(ShowResults());
+            isPicking = false;
+            button.SetButtonText("Finished");
+            button.GetComponent<XRSimpleInteractable>().enabled = false;
             return;
         }
+        button.SetButtonText(buttonMessages[round]);
+
         isPicking = false;
     }
 
@@ -89,6 +99,8 @@ public class CupGameManager : MonoBehaviour
         {
             cup.DisplaySelection();
         }
+        creator.ClearDisplay();
+        creator.CreateLogo(results);
     }
 
     private void RaiseCups()
@@ -153,7 +165,7 @@ public class CupGameManager : MonoBehaviour
     //Cup Shuffeling Logic
     public void Shuffle()
     {
-        if(!isSwitching)
+        if(!isSwitching && !isPicking)
         {
             foreach (Cup cup in cups)
             {
