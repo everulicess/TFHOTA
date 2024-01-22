@@ -19,11 +19,11 @@ public class LogoCreator : MonoBehaviour
     public void CreateLogo(int[] choices)
     {
         CreateImage(logoPresets.backgroundImage).sortingOrder = -1;
-        if (choices[0] != -1) { primary = CreateImage(logoPresets.primaryImages[choices[0]]); primary.sortingOrder = 0; }
+        if (choices[0] != -1) { primary = CreateImage(logoPresets.primaryImages[choices[0]]); primary.sortingOrder = 1; }
         if (choices[1] != -1) primary.color = logoPresets.primaryColors[choices[1]];
-        if (choices[2] != -1) { secondary = CreateImage(logoPresets.secondaryImages[choices[2]]); secondary.sortingOrder = 1; }
+        if (choices[2] != -1) { secondary = CreateImage(logoPresets.secondaryImages[choices[2]]); secondary.sortingOrder = 2; }
         if (choices[3] != -1) secondary.color = logoPresets.secondaryColors[choices[3]];
-        if (choices[4] != -1) { text = CreateImage(logoPresets.textFonts[choices[4]]); text.sortingOrder = 2; }
+        if (choices[4] != -1) { text = CreateImage(logoPresets.textFonts[choices[4]]); text.sortingOrder = 3; }
         if (choices[5] != -1) text.color = logoPresets.textColors[choices[5]]; ;
     }
 
@@ -35,6 +35,7 @@ public class LogoCreator : MonoBehaviour
         _object.transform.SetParent(display);
         _object.transform.localScale = new Vector3(100f, 100f, 1f);
         _object.transform.localPosition = new Vector3(0, 0, 0);
+        _object.transform.localRotation = Quaternion.Euler(_object.transform.localRotation.x, 0, _object.transform.localRotation.z);
 
         return image;
     }

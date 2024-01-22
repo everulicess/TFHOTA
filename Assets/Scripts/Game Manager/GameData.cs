@@ -9,7 +9,7 @@ public class GameData : MonoBehaviour
     public int[] cupGameResults;
     public string balloonGameResults;
 
-    public Vector3 mainSceneLoadPosition = new Vector3(0.7f, 0.2f, -4.12f);
+    public Vector3 mainSceneLoadPosition = new Vector3(-19.68f, 0.1956f, 3.47f);
 
 
     private void Awake()

@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class SceneTransitionManager : MonoBehaviour
 {
     public FadeScreen fadeScreen;
+    public Transform player;
     
     public void GoToAsyncScene(int sceneIndex)
     {
@@ -17,7 +18,7 @@ public class SceneTransitionManager : MonoBehaviour
 
         if(SceneManager.GetActiveScene().buildIndex == 0)
         {
-            GameData.instance.mainSceneLoadPosition = transform.position;
+            GameData.instance.mainSceneLoadPosition = player.position;
         }
 
         AsyncOperation operation = SceneManager.LoadSceneAsync(sceneIndex);
