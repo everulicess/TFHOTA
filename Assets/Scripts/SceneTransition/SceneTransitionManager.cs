@@ -14,6 +14,12 @@ public class SceneTransitionManager : MonoBehaviour
      IEnumerator GoToSceneAsyncRoutine(int sceneIndex)
     {
         fadeScreen.FadeOut();
+
+        if(SceneManager.GetActiveScene().buildIndex == 0)
+        {
+            GameData.instance.mainSceneLoadPosition = transform.position;
+        }
+
         AsyncOperation operation = SceneManager.LoadSceneAsync(sceneIndex);
         Debug.LogWarning($"scene transition progrssion: {operation.progress.ToString()}");
         operation.allowSceneActivation = false;
