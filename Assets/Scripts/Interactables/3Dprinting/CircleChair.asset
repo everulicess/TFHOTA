@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 427d60f09b7fa16488f562956f80e619, type: 3}
+  m_Name: CircleChair
+  m_EditorClassIdentifier: 
+  ModelName: Circle Chair
+  ModelPrefab: {fileID: 7084403210317943364, guid: f14d833f87ddd2442be7349d2a85957a,
+    type: 3}
+  ModelIcon: {fileID: 21300000, guid: b7a36622ff2393141a19fdb3f0b29de1, type: 3}
+  PrintingTime: 3

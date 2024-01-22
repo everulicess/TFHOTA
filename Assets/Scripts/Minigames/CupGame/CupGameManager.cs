@@ -8,12 +8,15 @@ using System;
 using UnityEngine.Events;
 using UnityEngine.SocialPlatforms.Impl;
 using static Unity.Burst.Intrinsics.X86.Avx;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class CupGameManager : MonoBehaviour
 {
     private List<Cup> cups = new List<Cup>();
-    private Cup selectedCup;
+    private int selectedCup = -1;
     private bool isSwitching;
+    [HideInInspector]
+    public bool isPicking = false;
 
     [Header("Gameplay config")]
     [SerializeField, Range(0.1f, 5f)]
@@ -24,7 +27,7 @@ public class CupGameManager : MonoBehaviour
     private int switchAmount = 1;
 
     [Header("Animation")]
-    [SerializeField, Range(1f, 5f)]
+    [SerializeField, Range(0.1f, 1f)]
     private float raiseHeight;
     [SerializeField, Range(0.1f, 1f)]
     private float raiseTime;
@@ -56,22 +59,20 @@ public class CupGameManager : MonoBehaviour
 
     private void OnBallSelected()
     {
-        foreach(Cup cup in cups)
-        {
-            cup.HideSelectionButton();
-        }
-
+        PreviewSelection();
+        
         if(round >= 6)
         {
             StartCoroutine(ShowResults());
             return;
         }
-        ShowCupResults();
+        isPicking = false;
     }
 
     public void SetSelection(int val)
     {
         results[round - 1] = val;
+        selectedCup = val;
     }
 
     private void UpdatePreviews()
@@ -82,11 +83,12 @@ public class CupGameManager : MonoBehaviour
         }
     }
 
-    private void ShowCupResults()
+    private void PreviewSelection()
     {
-        RaiseCups();
-        isSwitching = false;
-
+        foreach (Cup cup in cups)
+        {
+            cup.DisplaySelection();
+        }
     }
 
     private void RaiseCups()
@@ -107,17 +109,7 @@ public class CupGameManager : MonoBehaviour
 
     private IEnumerator ShowResults()
     {
-        foreach (Cup cup in cups)
-        {
-            StartCoroutine(RaiseCup(cup));
-            isSwitching = false;
-        }
-
         yield return new WaitForSeconds(2f);
-
-        LowerCups();
-
-        yield return new WaitForSeconds(0.5f);
 
         creator.CreateLogo(results);
         GameData.instance.cupGameResults = results;
@@ -163,6 +155,11 @@ public class CupGameManager : MonoBehaviour
     {
         if(!isSwitching)
         {
+            foreach (Cup cup in cups)
+            {
+                cup.GetComponent<XRGrabInteractable>().enabled = false;
+            }
+            PositionCups(cupsOrigin.position);
             StartCoroutine(SwitchCupsSequence());
         }
     }
@@ -172,19 +169,16 @@ public class CupGameManager : MonoBehaviour
         isSwitching = true;
 
         UpdatePreviews();
+        ToggleRigidBodies(true);
 
-        if (round == 0)
-        {
-            RaiseCups();
+        RaiseCups();
 
-            yield return new WaitForSeconds(raiseTime + 1f);
-        }
-
-        round++;
-
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(raiseTime + 2f);
 
         LowerCups();
+       
+
+        round++;
 
         yield return new WaitForSeconds(raiseTime + 1f);
 
@@ -196,10 +190,21 @@ public class CupGameManager : MonoBehaviour
 
         foreach(Cup cup in cups)
         {
-            cup.OpenSelectionButton();
+            cup.GetComponent<XRGrabInteractable>().enabled = true;
         }
 
+        ToggleRigidBodies(false);
+        isPicking = true;
+        isSwitching = false;
         yield break;
+    }
+
+    private void ToggleRigidBodies(bool val)
+    {
+        foreach (Cup cup in cups)
+        {
+            cup.GetComponent<Rigidbody>().isKinematic = val;
+        }
     }
 
     public void SwitchRandomCups()
@@ -215,6 +220,7 @@ public class CupGameManager : MonoBehaviour
         foreach(Cup cup in cups)
         {
             cup.transform.position = pos;
+            cup.transform.rotation = Quaternion.Euler(180, 0, 0);
             pos += new Vector3(cupDistance, 0, 0);
         }
     }
@@ -257,7 +263,7 @@ public class CupGameManager : MonoBehaviour
         return RandomNumberInRangeException(exception, min, max);
     }
 
-    public Cup GetSelectedCup()
+    public int GetSelectedCup()
     {
         return selectedCup;
     }

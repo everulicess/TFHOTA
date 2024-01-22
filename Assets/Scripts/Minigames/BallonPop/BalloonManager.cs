@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System;
 using UnityEngine;
 using TMPro;
 using UnityEngine.Events;
@@ -43,6 +44,7 @@ public class BalloonManager : MonoBehaviour
     {
         gameExplanationTextHolder.text = gameExplanationText;
         gameState = GameState.Explanation;
+
         PutTextOnTheList();
         foreach (GameObject dart in GameObject.FindGameObjectsWithTag("Dart"))
         {
@@ -51,11 +53,15 @@ public class BalloonManager : MonoBehaviour
         DisplayResultText("Init");
 
     }
+    private void OnNoBulletsLeft()
+    {
+        Debug.Log("GAME FINISHED");
+        gameState = GameState.ShowingTheResult;
+    }
     private void Update()
     {
         HandleMinigameFlow();
         
-
     }
 
     public void GetText(Balloon balloon)
@@ -63,7 +69,7 @@ public class BalloonManager : MonoBehaviour
         if (balloons.Count <= 0) return;
         balloonsCount++;
         //Debug.Log($"balloons count is: {balloonsCount}");
-        int stringPos = Random.Range(0, balloons.Count - 2);
+        int stringPos = UnityEngine.Random.Range(0, balloons.Count - 2);
         balloon.balloonText.text = balloons[stringPos];
         balloons.RemoveAt(stringPos);
     }
@@ -112,17 +118,20 @@ public class BalloonManager : MonoBehaviour
         {
             case GameState.Explanation:
                 ExplanationHandle();
-                
+                BalloonPoppingDevice.NoBulletsLeft += OnNoBulletsLeft;
+
                 break;
             case GameState.PlayingTheGame:
                 //DisplayResultText("");
                 Debug.Log($"balloons count : {balloonsCount}");
 
                 if (balloonsCount > 5) return;
-                gameState = GameState.ShowingTheResult;
+                
                 break;
             case GameState.ShowingTheResult:
                 ShowResult();
+                BalloonPoppingDevice.NoBulletsLeft -= OnNoBulletsLeft;
+
                 break;
             default:
                 break;

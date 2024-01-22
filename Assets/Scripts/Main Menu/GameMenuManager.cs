@@ -29,7 +29,7 @@ public class GameMenuManager : MonoBehaviour
             ShowMenu();
 
         }
-        menuObjectCanvas.transform.position = head.position + new Vector3(head.forward.x, 3, head.forward.z).normalized * spawnDistance;
+        menuObjectCanvas.transform.position = head.position + new Vector3(head.forward.x, 0, head.forward.z).normalized * spawnDistance;
         menuObjectCanvas.transform.LookAt(new Vector3(head.position.x, menuObject.transform.position.y, head.position.z));
         menuObjectCanvas.transform.forward *= -1;
     }
@@ -38,15 +38,20 @@ public class GameMenuManager : MonoBehaviour
     {
         menuObjectCanvas.SetActive(!menuObjectCanvas.activeSelf);
         menuObject.SetActive(menuObjectCanvas.activeSelf);
+        settingsObject.SetActive(false);
+        controlsObject.SetActive(false);
     }
 
     public void ShowSettings()
     {
         settingsObject.SetActive(!settingsObject.activeSelf);
+        menuObject.SetActive(!menuObject.activeSelf);
+
     }
 
     public void ShowControls()
     {
+        settingsObject.SetActive(!settingsObject.activeSelf);
         controlsObject.SetActive(!controlsObject.activeSelf);
     }
 

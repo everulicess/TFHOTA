@@ -14,6 +14,11 @@ public class CoffeeMachineInteraction : MonoBehaviour
     [Header("Settings")]
     public float pouringTime;
 
+    [Header("Machine Screen References")]
+    [SerializeField] GameObject servingObject;
+    [SerializeField] GameObject readyImage;
+    [SerializeField] GameObject notReadyImage;
+
 
     GameObject preparingCup;
 
@@ -29,6 +34,22 @@ public class CoffeeMachineInteraction : MonoBehaviour
             GetCoffee();
         }
         
+    }
+    public void ServingState(bool isServing)
+    {
+        if (isServing)
+        {
+            servingObject.SetActive(true);
+            readyImage.SetActive(false);
+            notReadyImage.SetActive(true);
+        }
+        else
+        {
+
+            readyImage.SetActive(true);
+            notReadyImage.SetActive(false);
+        }
+
     }
     public void GetCoffee()
     {
@@ -52,6 +73,7 @@ public class CoffeeMachineInteraction : MonoBehaviour
         
         yield return new WaitForSeconds(2f);
 
+        ServingState(true);
         _coffeeParticleSystem.Play();
         yield return new WaitForSeconds(3f);
 
@@ -59,6 +81,7 @@ public class CoffeeMachineInteraction : MonoBehaviour
         yield return new WaitForSeconds(pouringTime);
 
         _coffeeParticleSystem.Stop();
+        ServingState(false);
         preparingCup.GetComponent<XRGrabInteractable>().enabled = true;
 
 
@@ -77,7 +100,14 @@ public class CoffeeMachineInteraction : MonoBehaviour
         {
             isCup = false;
             preparingCup = null;
-
+            SetScreenToDefault();
         }
+    }
+
+    private void SetScreenToDefault()
+    {
+        servingObject.SetActive(false);
+        readyImage.SetActive(true);
+        notReadyImage.SetActive(false);
     }
 }
