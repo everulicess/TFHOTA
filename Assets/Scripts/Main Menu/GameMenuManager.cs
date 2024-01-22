@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 
 public class GameMenuManager : MonoBehaviour
@@ -13,8 +14,13 @@ public class GameMenuManager : MonoBehaviour
     [SerializeField] GameObject menuObject;
     [SerializeField] GameObject settingsObject;
     [SerializeField] GameObject controlsObject;
+    [SerializeField] GameObject audioObject;
     [SerializeField] InputActionProperty showMenuButtonLeft;
     [SerializeField] InputActionProperty showMenuButtonRight;
+
+    [SerializeField] Slider volumeSlider;
+    [SerializeField] Toggle musicToggle;
+    [SerializeField] Toggle audioToggle;
     private void Start()
     {
         
@@ -54,5 +60,4 @@ public class GameMenuManager : MonoBehaviour
         settingsObject.SetActive(!settingsObject.activeSelf);
         controlsObject.SetActive(!controlsObject.activeSelf);
     }
-
 }
