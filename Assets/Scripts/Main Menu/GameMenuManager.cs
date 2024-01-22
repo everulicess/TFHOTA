@@ -27,7 +27,6 @@ public class GameMenuManager : MonoBehaviour
     }
     private void Update()
     {
-
         if (showMenuButtonLeft.action.WasPressedThisFrame() || showMenuButtonRight.action.WasPressedThisFrame())
         {
             Debug.Log("OPEN MENU");
@@ -38,6 +37,8 @@ public class GameMenuManager : MonoBehaviour
         menuObjectCanvas.transform.position = head.position + new Vector3(head.forward.x, 0, head.forward.z).normalized * spawnDistance;
         menuObjectCanvas.transform.LookAt(new Vector3(head.position.x, menuObject.transform.position.y, head.position.z));
         menuObjectCanvas.transform.forward *= -1;
+
+        FindObjectOfType<AudioManager>().VolumeControl(volumeSlider.value);
     }
 
     public void ShowMenu()
