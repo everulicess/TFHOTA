@@ -143,6 +143,7 @@ public class BalloonManager : MonoBehaviour
         Debug.Log(postDescription.text);
         resultObject.SetActive(true);
         postResultText.text = postDescription.text;
+        GameData.instance.balloonGameResults = postDescription.text;
     }
 
     private void ExplanationHandle()
