@@ -35,7 +35,7 @@ public class LogoCreator : MonoBehaviour
         _object.transform.SetParent(display);
         _object.transform.localScale = new Vector3(100f, 100f, 1f);
         _object.transform.localPosition = new Vector3(0, 0, 0);
-        _object.transform.localRotation = Quaternion.Euler(_object.transform.localRotation.x, 0, _object.transform.localRotation.z);
+        _object.transform.localRotation = Quaternion.Euler(0, 0, 0);
 
         return image;
     }
