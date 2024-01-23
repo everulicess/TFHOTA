@@ -12,28 +12,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae0a4ea62d76f94a93d345f4bf89207, type: 3}
   m_Name: CupGame Preset
   m_EditorClassIdentifier: 
-  backgroundImage: {fileID: 21300000, guid: 0c1c0ff73221faf40ba7438127c01773, type: 3}
+  backgroundImage: {fileID: 21300000, guid: 6f401cfc1cd077e4681d9907a549617d, type: 3}
   primaryImages:
-  - {fileID: 21300000, guid: 27f688a37722f144b9d08dfe60d95805, type: 3}
-  - {fileID: 21300000, guid: 2e434dec80e87f242a603d01a26a03c7, type: 3}
-  - {fileID: 21300000, guid: 97c1d85ff851ef74cb3eb1539f202970, type: 3}
+  - {fileID: 21300000, guid: 08c5829a9f3b4414e9726c3ee4476314, type: 3}
+  - {fileID: 21300000, guid: f5a247b9a68123e4191c4f00229cf6ab, type: 3}
+  - {fileID: 21300000, guid: 23e1625589574d147912aa874fd714f6, type: 3}
   primaryColors:
-  - {r: 0.9150943, g: 0.60434145, b: 0.3237362, a: 1}
-  - {r: 0.5087665, g: 0.9716981, b: 0.6449362, a: 1}
+  - {r: 0.9433962, g: 0.48638314, b: 0.07564971, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
   - {r: 0, g: 0.36008072, b: 1, a: 1}
   secondaryImages:
-  - {fileID: 21300000, guid: de53ae7a68e4a0f45bef699c2004c0a7, type: 3}
-  - {fileID: 21300000, guid: 47c24c250fa3345409fb1ec94bb7ee96, type: 3}
-  - {fileID: 21300000, guid: 755c370d12e9952418081e518c8fabb0, type: 3}
+  - {fileID: 21300000, guid: a3137b2ea9980484dab483b37ef1ad66, type: 3}
+  - {fileID: 21300000, guid: b1a9352020749294098c7210aeb38f37, type: 3}
+  - {fileID: 21300000, guid: e566eb6a0c7973e4692c4ec79966edfe, type: 3}
   secondaryColors:
-  - {r: 0.9339623, g: 0.9339623, b: 0.9339623, a: 1}
-  - {r: 0.2688679, g: 0.49981222, b: 1, a: 1}
-  - {r: 0.13207549, g: 0.13207549, b: 0.13207549, a: 1}
+  - {r: 0.8605151, g: 0, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 0.5257999, b: 0, a: 1}
   textFonts:
-  - {fileID: 21300000, guid: da5ffdb9af4a1e94a940d92f8df264b9, type: 3}
-  - {fileID: 21300000, guid: c74e260a9c66b6f4e87709998bdd2164, type: 3}
-  - {fileID: 21300000, guid: 43136ac446ce08847bf4c023a7c41b9e, type: 3}
+  - {fileID: 21300000, guid: 47ec53185036596408f98995aea52e0b, type: 3}
+  - {fileID: 21300000, guid: 4828c573f05e4bf45acb423fe1c169a8, type: 3}
+  - {fileID: 21300000, guid: 82d2b7d0472a4fa4ab70370fc45e0b33, type: 3}
   textColors:
-  - {r: 1, g: 0.7611719, b: 0.5801887, a: 1}
-  - {r: 0.4480497, g: 0.6698113, b: 0.37597898, a: 1}
-  - {r: 0.9339623, g: 0.8943129, b: 0.8943129, a: 1}
+  - {r: 1, g: 0.5576074, b: 0, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0, g: 0.4107802, b: 1, a: 1}
