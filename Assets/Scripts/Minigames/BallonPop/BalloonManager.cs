@@ -9,11 +9,13 @@ public class BalloonManager : MonoBehaviour
 {
     private List<string> balloons = new();
     private List<string> textListToCheck = new();
-    private List<GameObject> Darts = new();
+    //private List<GameObject> Darts = new();
     [Header("Post")]
     [SerializeField] [TextArea(3, 10)] string[] balloonText;
     [Tooltip("The text wil be displayed on this text object")]
     [SerializeField] TextMeshProUGUI postDescription;
+    [TextArea(3, 20)]
+    [SerializeField] string mainEventText;
 
 
     [Header("GameFlow")]
@@ -46,10 +48,10 @@ public class BalloonManager : MonoBehaviour
         gameState = GameState.Explanation;
 
         PutTextOnTheList();
-        foreach (GameObject dart in GameObject.FindGameObjectsWithTag("Dart"))
-        {
-            Darts.Add(dart);
-        }
+        //foreach (GameObject dart in GameObject.FindGameObjectsWithTag("Dart"))
+        //{
+        //    Darts.Add(dart);
+        //}
         DisplayResultText("Init");
 
     }
@@ -82,11 +84,11 @@ public class BalloonManager : MonoBehaviour
             {
                 textListToCheck.Remove(balloonText[i]);
                 balloonsCount--;
-                postDescription.text = $"";
+                postDescription.text = $"{mainEventText}\n ";
                 foreach (string str in textListToCheck)
                 {
 
-                    postDescription.text += $"{str}\n ";
+                    postDescription.text += $"{str}";
                 }
             }
         } 

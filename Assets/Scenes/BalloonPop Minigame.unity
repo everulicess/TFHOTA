@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.6602524, g: 0.7541314, b: 0.76858234, a: 1}
+  m_IndirectSpecularColor: {r: 0.66243005, g: 0.7588795, b: 0.7726265, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -165,7 +165,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -993, y: -266}
+  m_AnchoredPosition: {x: -655, y: 52}
   m_SizeDelta: {x: 0, y: -0.049927}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &52876362
@@ -964,11 +964,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Balloon (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4244986300733516408, guid: 17782bf78e56751429b27abed5a57b3e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6879554003076234938, guid: 17782bf78e56751429b27abed5a57b3e,
         type: 3}
       propertyPath: balloonText
       value: 
       objectReference: {fileID: 1523270933}
+    - target: {fileID: 7611605122869958317, guid: 17782bf78e56751429b27abed5a57b3e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1046,11 +1056,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Balloon (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4244986300733516408, guid: 17782bf78e56751429b27abed5a57b3e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389627381066286327, guid: 17782bf78e56751429b27abed5a57b3e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6879554003076234938, guid: 17782bf78e56751429b27abed5a57b3e,
         type: 3}
       propertyPath: balloonText
       value: 
       objectReference: {fileID: 1128365754}
+    - target: {fileID: 7611605122869958317, guid: 17782bf78e56751429b27abed5a57b3e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2550,31 +2575,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   balloonText:
-  - Health Noord zet zich in om de problemen in de Verzorging- en Thuiszorg (VVT)
-    in Noord-Nederland aan te pakken door middel van technologische en sociale innovatie.
-  - Have you not yet registered for our Vacancy Festival? Then do this quickly!
-  - ' Landelijk staat de zorgsector onder hoogspanning. Naar verwachting loopt Noord
-    Nederland als eerste tegen de grenzen van het huidige gezondheidsstelsel aan.'
-  - "Our artists are ready to discuss your potential internship or graduation assignment!\r"
-  - ' Er is meer vergrijzing, sterkere wegtrek van jongeren, meer arbeidstekort en
-    grotere reisafstanden.'
-  - ' Het personeelstekort en de uitdagingen in de zorg kunnen mede worden opgelost
-    door de inzet van technologie.'
-  - Goedemorgen jongens, alles goed?
-  - ' En daarom bundelen 9 p.p.s.(publiek private samenwerking) en in de regio de
-    krachten waarbij ze mkb en zorg verbinden en samenwerken in de quintuple helix
-    (zorg, onderwijs, mkb, onderzoek, burger, overheid) om sociale en technologische
-    innovatie in de VVT te bewerkstelligen.'
-  - " Hierbij richten zij zich op het verbinden van het mkb aan onderwijs- en zorginstellingen
-    en cli\xEBnten, om een innovatief klimaat te cre\xEBren en succesvolle diensten
-    te ontwikkelen."
+  - '#DSH'
+  - '#DigitalSocietyHub'
+  - '#Hanze'
+  - '#ArtificialIntelligence'
+  - '#ShareYourTalent'
+  - '#RenewableEnergy'
+  - '#Hanzehogeschool'
+  - '#vacatures'
+  - '#Lecture'
   - Init
   postDescription: {fileID: 1479893666}
+  mainEventText: "Would you like to explore a minor? Then visit the Minorenmarkt
+    on March 14, 2024 and find out everything about our minors!\r\n\r\nPractical
+    information\nDate: March 14, 2024\nTime: 2:00 PM - 5:00 PM\n\rLocation: Campus\n\r\nMany
+    minors offer an information session and/or Q&A between 14:00 and 17:00. Lecturers
+    and students will tell you more about our minors and you will have the opportunity
+    to ask all your questions.\n\n\n\nHashtags:"
   gameExplanationObject: {fileID: 1880855998}
-  gameExplanationText: 'Keep the balloons with the text you want to include in the
-    description of the post at your right
-
-    Use the device to get rid of the '
+  gameExplanationText: 'Pop the balloons with the hashtags that do not suit the event
+    displayed on your right. '
   gameExplanationTextHolder: {fileID: 1482435909}
   resultObject: {fileID: 52056194}
   postResultText: {fileID: 614694183}
@@ -2867,7 +2887,7 @@ RectTransform:
   m_GameObject: {fileID: 612922856}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.9546, y: 1.9546, z: 1.9546}
+  m_LocalScale: {x: 2.0927904, y: 2.3485293, z: 2.0927904}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1236032888}
@@ -2876,7 +2896,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -163, y: 119}
+  m_AnchoredPosition: {x: -163, y: 70}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &612922858
@@ -3046,21 +3066,7 @@ MonoBehaviour:
   m_text: example text for the DSH post example text for the DSH postexample text
     for the DSH postexample text for the DSH postexample text for the DSH postexample
     text for the DSH postexample text for the DSH postexample text for the DSH postexample
-    text for the DSH postexample text for the DSH postexample text for the DSH postexample
-    text for the DSH postexample text for the DSH postexample text for the DSH postexample
-    text for the DSH postexample text for the DSH postexample text for the DSH postexample
-    text for the DSH postexample text for the DSH postexample text for the DSH postexample
-    text for the DSH postexample text for the DSH postexample text for the DSH postexample
-    text for the DSH postexample text for the DSH postexample text for the DSH postexample
-    text for the DSH postexample text for the DSH postexample text for the DSH postexample
-    text for the DSH postexample text for the DSH postexample text for the DSH postexample
-    text for the DSH postexample text for the DSH postexample text for the DSH postexample
-    text for the DSH postexample text for the DSH postexample text for the DSH postexample
-    text for the DSH postexample text for the DSH postexample text for the DSH postexample
-    text for the DSH postexample text for the DSH postexample text for the DSH postexample
-    text for the DSH postexample text for the DSH postexample text for the DSH postexample
-    text for the DSH postexample text for the DSH postexample text for the DSH postexample
-    text for the DSH postexample text for the DSH post
+    text for the DSH postexample text for the DSH postexamp
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3123,7 +3129,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 3.8173218, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3253,7 +3259,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1.483, y: 1.512}
+  m_AnchoredPosition: {x: 1.483, y: 1.774}
   m_SizeDelta: {x: 700, y: 1382.813}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &654592583
@@ -6193,7 +6199,7 @@ RectTransform:
   m_GameObject: {fileID: 993072014}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.8574, y: 1.8574, z: 1.8574}
+  m_LocalScale: {x: 2.678185, y: 2.678185, z: 2.678185}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 450811193}
@@ -6691,9 +6697,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Redo
-
-'
+  m_text: Again
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6995,7 +6999,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1345005363}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.312, y: 1.001, z: -3.801}
+  m_LocalPosition: {x: -0.312, y: 1.001, z: -7.95}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7671,7 +7675,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 8
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -7954,15 +7958,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 70
+  m_fontSizeBase: 70
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -8178,11 +8182,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Balloon (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5389627381066286327, guid: 17782bf78e56751429b27abed5a57b3e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6879554003076234938, guid: 17782bf78e56751429b27abed5a57b3e,
         type: 3}
       propertyPath: balloonText
       value: 
       objectReference: {fileID: 1459932326}
+    - target: {fileID: 7611605122869958317, guid: 17782bf78e56751429b27abed5a57b3e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9337,11 +9351,41 @@ PrefabInstance:
       propertyPath: m_Name
       value: Balloon (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4244986300733516408, guid: 17782bf78e56751429b27abed5a57b3e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389627381066286327, guid: 17782bf78e56751429b27abed5a57b3e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389627381066286327, guid: 17782bf78e56751429b27abed5a57b3e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5840327715010916605, guid: 17782bf78e56751429b27abed5a57b3e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6879554003076234938, guid: 17782bf78e56751429b27abed5a57b3e,
         type: 3}
       propertyPath: balloonText
       value: 
       objectReference: {fileID: 636248137}
+    - target: {fileID: 7611605122869958317, guid: 17782bf78e56751429b27abed5a57b3e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7611605122869958317, guid: 17782bf78e56751429b27abed5a57b3e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10260,6 +10304,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e329096ae77e3c04287e9ceb6d467bdf, type: 2}
+    - target: {fileID: -3933585868448344073, guid: 263c0f8f718ea3045b6cfbd2545838a6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: -2357884022608881519, guid: 263c0f8f718ea3045b6cfbd2545838a6,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -10270,11 +10319,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: balloonScene
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 263c0f8f718ea3045b6cfbd2545838a6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6658167614325345636, guid: 263c0f8f718ea3045b6cfbd2545838a6,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e6a8efa917fffa5468c70facdafa4742, type: 2}
+    - target: {fileID: 8343248219658952724, guid: 263c0f8f718ea3045b6cfbd2545838a6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9152363913774390056, guid: 263c0f8f718ea3045b6cfbd2545838a6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10410,7 +10474,7 @@ RectTransform:
   m_GameObject: {fileID: 1777548774}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.9546, y: 1.9546, z: 1.9546}
+  m_LocalScale: {x: 2.0927904, y: 2.3485293, z: 2.0927904}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1481177096}
@@ -10419,7 +10483,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 176, y: 125}
+  m_AnchoredPosition: {x: 176, y: 76}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1777548776
@@ -11618,11 +11682,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Balloon (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4244986300733516408, guid: 17782bf78e56751429b27abed5a57b3e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6879554003076234938, guid: 17782bf78e56751429b27abed5a57b3e,
         type: 3}
       propertyPath: balloonText
       value: 
       objectReference: {fileID: 1271785287}
+    - target: {fileID: 7611605122869958317, guid: 17782bf78e56751429b27abed5a57b3e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12024,11 +12098,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Balloon (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4244986300733516408, guid: 17782bf78e56751429b27abed5a57b3e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6879554003076234938, guid: 17782bf78e56751429b27abed5a57b3e,
         type: 3}
       propertyPath: balloonText
       value: 
       objectReference: {fileID: 875185766}
+    - target: {fileID: 7611605122869958317, guid: 17782bf78e56751429b27abed5a57b3e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
