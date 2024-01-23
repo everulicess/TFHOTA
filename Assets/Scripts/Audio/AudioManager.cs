@@ -13,6 +13,9 @@ public class AudioManager : MonoBehaviour
 
     public Slider volumeSlider;
 
+    public Toggle mainAudioToggle;
+    public Toggle musicToggle;
+
     float mainVolume = 0.5f;
     void Awake()
     {
@@ -48,6 +51,26 @@ public class AudioManager : MonoBehaviour
         if (volumeSlider != null)
         {
             volumeSlider.value = mainVolume;
+        }
+
+        if (!mainAudioToggle.isOn)
+        {
+            mainVolume = 0f;
+        }
+        else
+        {
+            mainVolume = 0.5f;
+        }
+
+        if (musicToggle != null)
+        {
+            foreach (Sound s in sounds)
+            {
+                if (s.loop)
+                {
+                    s.source.mute = !musicToggle.isOn;
+                }
+            }
         }
 
         foreach (Sound s in sounds)
