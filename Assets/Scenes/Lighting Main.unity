@@ -44091,6 +44091,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MusicToggle
       objectReference: {fileID: 0}
+    - target: {fileID: 1500558311185579651, guid: 6b4ea362ee60f174aa5f6aa78aab2016,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2304603248617816570, guid: 6b4ea362ee60f174aa5f6aa78aab2016,
         type: 3}
       propertyPath: m_Name
@@ -44106,15 +44111,20 @@ PrefabInstance:
       propertyPath: RightTeleportRay
       value: 
       objectReference: {fileID: 673576918}
-    - target: {fileID: 3892457490070382809, guid: 6b4ea362ee60f174aa5f6aa78aab2016,
+    - target: {fileID: 3645622313114986273, guid: 6b4ea362ee60f174aa5f6aa78aab2016,
         type: 3}
-      propertyPath: m_AnchorMax.x
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3892457490070382809, guid: 6b4ea362ee60f174aa5f6aa78aab2016,
         type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3892457490070382809, guid: 6b4ea362ee60f174aa5f6aa78aab2016,
+        type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5008209040150713439, guid: 6b4ea362ee60f174aa5f6aa78aab2016,
         type: 3}
@@ -44246,20 +44256,25 @@ PrefabInstance:
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 7618115869515429392, guid: 6b4ea362ee60f174aa5f6aa78aab2016,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8938036179177254737, guid: 6b4ea362ee60f174aa5f6aa78aab2016,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 8938036179177254737, guid: 6b4ea362ee60f174aa5f6aa78aab2016,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8938036179177254737, guid: 6b4ea362ee60f174aa5f6aa78aab2016,
         type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 0.7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

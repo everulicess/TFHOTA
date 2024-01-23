@@ -44,10 +44,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 099f26b70a1686445bd4f0e569b83093, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sounds:
-  - name: BOMBOCLAAT
-    audioClip: {fileID: 8300000, guid: 679301cbcce253d499636453931f1d36, type: 3}
-    volume: 1
-    pitch: 2.07
-    loop: 0
-    source: {fileID: 0}
+  sounds: []
