@@ -226,10 +226,10 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.309
-  m_Height: 0
+  m_Radius: 0.2770383
+  m_Height: 0.67358536
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: -0.013896349, z: 0.006948214}
 --- !u!114 &6879554003076234938
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -302,12 +302,12 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.52773106
-  m_Center: {x: 0, y: 0.027731046, z: 0}
+  m_Radius: 0.41887623
+  m_Center: {x: 0, y: -0.0811238, z: 0}
 --- !u!1001 &3902458538459649833
 PrefabInstance:
   m_ObjectHideFlags: 0
