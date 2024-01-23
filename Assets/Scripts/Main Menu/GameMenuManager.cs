@@ -18,14 +18,6 @@ public class GameMenuManager : MonoBehaviour
     [SerializeField] InputActionProperty showMenuButtonLeft;
     [SerializeField] InputActionProperty showMenuButtonRight;
 
-    [SerializeField] Slider volumeSlider;
-    [SerializeField] Toggle musicToggle;
-    [SerializeField] Toggle audioToggle;
-    private AudioManager audioManager;
-    private void Start()
-    {
-        audioManager = FindObjectOfType<AudioManager>();
-    }
     private void Update()
     {
         if (showMenuButtonLeft.action.WasPressedThisFrame() || showMenuButtonRight.action.WasPressedThisFrame())
@@ -66,21 +58,4 @@ public class GameMenuManager : MonoBehaviour
         settingsObject.SetActive(!settingsObject.activeSelf);
         audioObject.SetActive(!audioObject.activeSelf);
     }
-
-    // called when changing volume
-    public void OnValueChanged()
-    {
-        audioManager.VolumeControl(volumeSlider.value);
-    }
-
-    //public void ToggleSound()
-    //{
-    //    audioManager.ToggleSound(audioToggle.isOn);
-    //    volumeSlider.enabled = audioToggle.isOn;
-    //}
-
-    //public void ToggleMusic()
-    //{
-    //    audioManager.ToggleMusic(musicToggle.isOn);
-    //}
 }

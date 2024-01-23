@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2858769925371302148}
   - component: {fileID: 45213550062680565}
   - component: {fileID: 593400195981609842}
+  - component: {fileID: 5845383816265658514}
   m_Layer: 0
   m_Name: 3D printer_Preafab
   m_TagString: Untagged
@@ -110,3 +111,25 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5845383816265658514
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975997384371569269}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2450249100372317519, guid: 171e005f4dbb3e440bd6e76a47744326, type: 3}
