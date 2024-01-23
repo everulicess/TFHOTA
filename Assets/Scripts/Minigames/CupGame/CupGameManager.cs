@@ -21,6 +21,8 @@ public class CupGameManager : MonoBehaviour
     private ButtonAnimation button;
     [SerializeField]
     private GameObject backButton;
+    [SerializeField]
+    private GameObject tutorial;
 
     [Header("Gameplay config")]
     [SerializeField, Range(0.1f, 5f)]
@@ -169,6 +171,8 @@ public class CupGameManager : MonoBehaviour
     //Cup Shuffeling Logic
     public void Shuffle()
     {
+        tutorial.SetActive(false);
+
         if(!isSwitching && !isPicking)
         {
             foreach (Cup cup in cups)
