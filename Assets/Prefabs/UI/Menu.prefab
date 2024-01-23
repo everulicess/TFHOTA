@@ -2586,7 +2586,7 @@ Transform:
   m_Children:
   - {fileID: 2716747627342445534}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5632637848315618124
 MonoBehaviour:
@@ -2601,7 +2601,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   head: {fileID: 0}
-  spawnDistance: 1
+  spawnDistance: 0.75
   menuObjectCanvas: {fileID: 1235584987113194887}
   menuObject: {fileID: 1500558311185579651}
   settingsObject: {fileID: 7618115869515429392}
