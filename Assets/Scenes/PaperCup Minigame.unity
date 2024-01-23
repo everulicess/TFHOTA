@@ -936,150 +936,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d7b00db0b5e1e548937703b23f82eff, type: 3}
---- !u!1001 &411073292
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3110641954888469301, guid: ddc23f63ad6066142b1ac9802d20b5d2,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 3110641954888469301, guid: ddc23f63ad6066142b1ac9802d20b5d2,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -4.2066956
-      objectReference: {fileID: 0}
-    - target: {fileID: 3110641954888469301, guid: ddc23f63ad6066142b1ac9802d20b5d2,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3110641954888469301, guid: ddc23f63ad6066142b1ac9802d20b5d2,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -2.245806
-      objectReference: {fileID: 0}
-    - target: {fileID: 3110641954888469301, guid: ddc23f63ad6066142b1ac9802d20b5d2,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3110641954888469301, guid: ddc23f63ad6066142b1ac9802d20b5d2,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3110641954888469301, guid: ddc23f63ad6066142b1ac9802d20b5d2,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3110641954888469301, guid: ddc23f63ad6066142b1ac9802d20b5d2,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3110641954888469301, guid: ddc23f63ad6066142b1ac9802d20b5d2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3110641954888469301, guid: ddc23f63ad6066142b1ac9802d20b5d2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3110641954888469301, guid: ddc23f63ad6066142b1ac9802d20b5d2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3392247684414447963, guid: ddc23f63ad6066142b1ac9802d20b5d2,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 3392247684414447963, guid: ddc23f63ad6066142b1ac9802d20b5d2,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 3392247684414447963, guid: ddc23f63ad6066142b1ac9802d20b5d2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 5263819695329171849, guid: ddc23f63ad6066142b1ac9802d20b5d2,
-        type: 3}
-      propertyPath: m_Name
-      value: NPC
-      objectReference: {fileID: 0}
-    - target: {fileID: 5263819695329171849, guid: ddc23f63ad6066142b1ac9802d20b5d2,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8181489642154104748, guid: ddc23f63ad6066142b1ac9802d20b5d2,
-        type: 3}
-      propertyPath: rootNode.dialogue.dialogueFragments.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8181489642154104748, guid: ddc23f63ad6066142b1ac9802d20b5d2,
-        type: 3}
-      propertyPath: rootNode.dialogue.dialogueFragments.Array.data[0].name
-      value: Rick
-      objectReference: {fileID: 0}
-    - target: {fileID: 8181489642154104748, guid: ddc23f63ad6066142b1ac9802d20b5d2,
-        type: 3}
-      propertyPath: rootNode.dialogue.dialogueFragments.Array.data[0].text
-      value: Welcome to the logo making lab. MAKE LOGO VERY GOOD YES!!!!
-      objectReference: {fileID: 0}
-    - target: {fileID: 8181489642154104748, guid: ddc23f63ad6066142b1ac9802d20b5d2,
-        type: 3}
-      propertyPath: rootNode.dialogue.dialogueFragments.Array.data[1].text
-      value: Ehmmm... are you gonna explain anything?
-      objectReference: {fileID: 0}
-    - target: {fileID: 8181489642154104748, guid: ddc23f63ad6066142b1ac9802d20b5d2,
-        type: 3}
-      propertyPath: rootNode.dialogue.dialogueFragments.Array.data[2].name
-      value: Rick
-      objectReference: {fileID: 0}
-    - target: {fileID: 8181489642154104748, guid: ddc23f63ad6066142b1ac9802d20b5d2,
-        type: 3}
-      propertyPath: rootNode.dialogue.dialogueFragments.Array.data[2].text
-      value: MAKE LOGO VERY GOOD YES?! Good luck
-      objectReference: {fileID: 0}
-    - target: {fileID: 8181489642154104748, guid: ddc23f63ad6066142b1ac9802d20b5d2,
-        type: 3}
-      propertyPath: rootNode.dialogue.dialogueFragments.Array.data[3].name
-      value: DSH
-      objectReference: {fileID: 0}
-    - target: {fileID: 8181489642154104748, guid: ddc23f63ad6066142b1ac9802d20b5d2,
-        type: 3}
-      propertyPath: rootNode.dialogue.dialogueFragments.Array.data[3].text
-      value: Once you arrive at your workstation someone will be there to explain
-        your task. Good luck!
-      objectReference: {fileID: 0}
-    - target: {fileID: 8181489642154104748, guid: ddc23f63ad6066142b1ac9802d20b5d2,
-        type: 3}
-      propertyPath: rootNode.dialogue.dialogueFragments.Array.data[4].name
-      value: You
-      objectReference: {fileID: 0}
-    - target: {fileID: 8181489642154104748, guid: ddc23f63ad6066142b1ac9802d20b5d2,
-        type: 3}
-      propertyPath: rootNode.dialogue.dialogueFragments.Array.data[4].text
-      value: Thank you!
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ddc23f63ad6066142b1ac9802d20b5d2, type: 3}
 --- !u!1 &550623907
 GameObject:
   m_ObjectHideFlags: 0
@@ -3502,6 +3358,124 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8927b35c912a5244fbe1d1e0c773af07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &1992705537
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1729153522190999911, guid: 458c49e4455787d46a0068edaffae4ae,
+        type: 3}
+      propertyPath: rootNode.description
+      value: CupGame Explananation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1729153522190999911, guid: 458c49e4455787d46a0068edaffae4ae,
+        type: 3}
+      propertyPath: rootNode.dialogue.dialogueFragments.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1729153522190999911, guid: 458c49e4455787d46a0068edaffae4ae,
+        type: 3}
+      propertyPath: rootNode.dialogue.dialogueFragments.Array.data[0].name
+      value: Daniela
+      objectReference: {fileID: 0}
+    - target: {fileID: 1729153522190999911, guid: 458c49e4455787d46a0068edaffae4ae,
+        type: 3}
+      propertyPath: rootNode.dialogue.dialogueFragments.Array.data[0].text
+      value: Here you will create a logo for the project. To create a good logo,
+        you will not only need to make good design choices. Skill and accuracy is
+        also required to get the results that you want.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1729153522190999911, guid: 458c49e4455787d46a0068edaffae4ae,
+        type: 3}
+      propertyPath: rootNode.dialogue.dialogueFragments.Array.data[1].name
+      value: Daniela
+      objectReference: {fileID: 0}
+    - target: {fileID: 1729153522190999911, guid: 458c49e4455787d46a0068edaffae4ae,
+        type: 3}
+      propertyPath: rootNode.dialogue.dialogueFragments.Array.data[1].text
+      value: Every round you will get to pick an attribute of your logo out of three
+        choices. You click the red button to go to the next choice. Your choices
+        will ofcourse be shown on the screen.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1729153522190999911, guid: 458c49e4455787d46a0068edaffae4ae,
+        type: 3}
+      propertyPath: rootNode.dialogue.dialogueFragments.Array.data[2].name
+      value: Daniela
+      objectReference: {fileID: 0}
+    - target: {fileID: 1729153522190999911, guid: 458c49e4455787d46a0068edaffae4ae,
+        type: 3}
+      propertyPath: rootNode.dialogue.dialogueFragments.Array.data[2].text
+      value: But make sure to pick exactly what you like, cause the logo will be
+        featured in the webpost at the end of your project!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907017686351338028, guid: 458c49e4455787d46a0068edaffae4ae,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907017686351338028, guid: 458c49e4455787d46a0068edaffae4ae,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.236248
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907017686351338028, guid: 458c49e4455787d46a0068edaffae4ae,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907017686351338028, guid: 458c49e4455787d46a0068edaffae4ae,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.3236787
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907017686351338028, guid: 458c49e4455787d46a0068edaffae4ae,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907017686351338028, guid: 458c49e4455787d46a0068edaffae4ae,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907017686351338028, guid: 458c49e4455787d46a0068edaffae4ae,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907017686351338028, guid: 458c49e4455787d46a0068edaffae4ae,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907017686351338028, guid: 458c49e4455787d46a0068edaffae4ae,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907017686351338028, guid: 458c49e4455787d46a0068edaffae4ae,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1907017686351338028, guid: 458c49e4455787d46a0068edaffae4ae,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2502068679036150150, guid: 458c49e4455787d46a0068edaffae4ae,
+        type: 3}
+      propertyPath: m_Name
+      value: Daniela NPC
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 458c49e4455787d46a0068edaffae4ae, type: 3}
 --- !u!1 &2027808502
 GameObject:
   m_ObjectHideFlags: 0

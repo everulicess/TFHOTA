@@ -103,6 +103,7 @@ public class DialogueManager : MonoBehaviour
     {
         if(dialogueText.gameObject.activeSelf)
         {
+            nameText.gameObject.SetActive(false);
             dialogueText.gameObject.SetActive(false);
             nextButton.gameObject.SetActive(false);
         }

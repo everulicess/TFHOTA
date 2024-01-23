@@ -11,13 +11,13 @@ public class DialogueDispenser : MonoBehaviour
     private GameObject promptCanvasObject;
 
     [Header("UI Config")]
-    [SerializeField, Range(0f, 5f)]
-    private float displayHeight = 2f;
+    [SerializeField, Range(0f, 10f)]
+    private float displayHeight = 8f;
 
     [Header("Range Config")]
-    [SerializeField, Range(5f, 30f)]
+    [SerializeField, Range(3f, 30f)]
     private float speakRange = 10f;
-    [SerializeField, Range(2f, 20f)]
+    [SerializeField, Range(1f, 20f)]
     private float promptRange = 5f;
 
     [Header("Dialogue Config")]
@@ -79,6 +79,7 @@ public class DialogueDispenser : MonoBehaviour
         {
             promptCanvas = Instantiate(promptCanvasObject, transform);
             promptCanvas.transform.localPosition = new Vector3(0, displayHeight, 0);
+            promptCanvas.transform.localRotation = Quaternion.Euler(0, 180, 0);
             promptCanvas.GetComponentInChildren<Button>().onClick.AddListener(DisplayDialogue);
             promptCanvas.GetComponent<Canvas>().worldCamera = Camera.main;
             return;
