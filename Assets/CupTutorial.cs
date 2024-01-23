@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class CupTutorial : MonoBehaviour
 {
@@ -12,6 +13,9 @@ public class CupTutorial : MonoBehaviour
     [SerializeField]
     private TMP_Text buttonText;
 
+    [SerializeField]
+    private GameObject button;
+
     private int currentScreen = -1;
 
     public void DisplayNext()
@@ -20,6 +24,8 @@ public class CupTutorial : MonoBehaviour
         {
             tutorialCanvas.SetActive(true);
             buttonText.text = "Next >";
+            button.GetComponent<XRSimpleInteractable>().enabled = false;
+            button.GetComponent<MeshRenderer>().material.color = Color.grey;
         }
 
         currentScreen++;
@@ -34,7 +40,9 @@ public class CupTutorial : MonoBehaviour
         {
             currentScreen = -1;
             tutorialCanvas.SetActive(false);
-            buttonText.text = "Start Tutorial";
+            buttonText.text = "Restart Tutorial";
+            button.GetComponent<XRSimpleInteractable>().enabled = true;
+            button.GetComponent<MeshRenderer>().material.color = Color.red;
             return;
         }
 
