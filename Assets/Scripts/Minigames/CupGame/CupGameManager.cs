@@ -19,6 +19,8 @@ public class CupGameManager : MonoBehaviour
     public bool isPicking = false;
     [SerializeField]
     private ButtonAnimation button;
+    [SerializeField]
+    private GameObject backButton;
 
     [Header("Gameplay config")]
     [SerializeField, Range(0.1f, 5f)]
@@ -72,6 +74,8 @@ public class CupGameManager : MonoBehaviour
             isPicking = false;
             button.SetButtonText("Finished");
             button.GetComponent<XRSimpleInteractable>().enabled = false;
+            button.GetComponent<MeshRenderer>().material.color = Color.grey;
+            backButton.SetActive(true);
             return;
         }
         button.SetButtonText(buttonMessages[round]);
