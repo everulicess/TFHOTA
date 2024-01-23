@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2915370628763854699}
   - component: {fileID: 1344745774980024484}
   - component: {fileID: 2096441609236595652}
+  - component: {fileID: 1768452507468780104}
   m_Layer: 0
   m_Name: stapler_Preafab
   m_TagString: Untagged
@@ -85,3 +86,25 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1768452507468780104
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8533744957907322331}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 334429263588757940, guid: fd1fe6e5722937b47b1812ae7d85a818, type: 3}

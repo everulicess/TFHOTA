@@ -616,8 +616,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8901612550076579865}
-  - component: {fileID: 6018581126658948874}
   - component: {fileID: 2548181355737542000}
+  - component: {fileID: 4243397419707173317}
   m_Layer: 0
   m_Name: Jurgen NPC
   m_TagString: Untagged
@@ -643,18 +643,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6018581126658948874
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4816795389570331324}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c29c67274549734faa70d17b00937c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &2548181355737542000
 Animator:
   serializedVersion: 5
@@ -676,6 +664,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &4243397419707173317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4816795389570331324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c40924239bfdbb499a6740ee5ff23f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4817691301733492987
 GameObject:
   m_ObjectHideFlags: 0
@@ -1315,6 +1315,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueDispenser
       objectReference: {fileID: 0}
+    - target: {fileID: 7707288260653432936, guid: c5b1c180de1934640a480144527da85b,
+        type: 3}
+      propertyPath: animationController
+      value: 
+      objectReference: {fileID: 4243397419707173317}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

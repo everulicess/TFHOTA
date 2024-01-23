@@ -59,7 +59,7 @@ public class AudioManager : MonoBehaviour
         }
         else
         {
-            mainVolume = 0.5f;
+            mainVolume = volumeSlider.value;
         }
 
         if (musicToggle != null)
@@ -90,8 +90,8 @@ public class AudioManager : MonoBehaviour
         s.source.Play();
     }
 
-    public void VolumeControl(float vol)
+    public void VolumeControl()
     {
-            mainVolume = vol;
+            mainVolume = volumeSlider.value;
     }
 }
