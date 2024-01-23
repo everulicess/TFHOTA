@@ -19,12 +19,12 @@ public class LogoCreator : MonoBehaviour
     public void CreateLogo(int[] choices)
     {
         CreateImage(logoPresets.backgroundImage).sortingOrder = -1;
-        if (choices[0] != -1) { primary = CreateImage(logoPresets.primaryImages[choices[0]]); primary.sortingOrder = 1; }
-        if (choices[1] != -1) primary.color = logoPresets.primaryColors[choices[1]];
-        if (choices[2] != -1) { secondary = CreateImage(logoPresets.secondaryImages[choices[2]]); secondary.sortingOrder = 2; }
-        if (choices[3] != -1) secondary.color = logoPresets.secondaryColors[choices[3]];
-        if (choices[4] != -1) { text = CreateImage(logoPresets.textFonts[choices[4]]); text.sortingOrder = 3; }
-        if (choices[5] != -1) text.color = logoPresets.textColors[choices[5]]; ;
+        if (choices[0] != -1) { text = CreateImage(logoPresets.textFonts[choices[0]]); text.sortingOrder = 3; }
+        if (choices[1] != -1) text.color = logoPresets.textColors[choices[1]];
+        if (choices[2] != -1) { primary = CreateImage(logoPresets.primaryImages[choices[2]]); primary.sortingOrder = 1; }
+        if (choices[3] != -1) primary.color = logoPresets.primaryColors[choices[3]];
+        if (choices[4] != -1) { secondary = CreateImage(logoPresets.secondaryImages[choices[4]]); secondary.sortingOrder = 2; }
+        if (choices[5] != -1) secondary.color = logoPresets.secondaryColors[choices[5]];
     }
 
     private SpriteRenderer CreateImage(Sprite _image)

@@ -1106,7 +1106,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 159.12762, y: -5.249817}
+  m_AnchoredPosition: {x: 300, y: -37}
   m_SizeDelta: {x: 1953.4688, y: 761.2976}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &651386389
@@ -1160,7 +1160,7 @@ GameObject:
   - component: {fileID: 773420607}
   - component: {fileID: 773420606}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Roof
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2373,7 +2373,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.283, y: 0.024}
+  m_AnchoredPosition: {x: -0.47, y: 0.116}
   m_SizeDelta: {x: 1051.79, y: 1257.4795}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1387937872
@@ -2997,12 +2997,12 @@ MonoBehaviour:
   cupDistance: 0.5
   cupsOrigin: {fileID: 1849961597}
   buttonMessages:
-  - Choose Primary Shape
-  - Choose Primary Colour
-  - Choose Secondary Shape
-  - Choose Secondary Color
-  - Choose Font
-  - Choose Text Color
+  - Pick a Font
+  - Pick a font colour
+  - Pick a primary shape
+  - Pick a primary colour
+  - Pick a secondary shape
+  - Pick a secondary colour
   score: 0
   creator: {fileID: 1708540166}
   results: ffffffffffffffffffffffffffffffffffffffffffffffff
@@ -3062,7 +3062,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1708540165}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.837, y: 2.163, z: 3.354}
+  m_LocalPosition: {x: -0.923, y: 2.148, z: 3.354}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
