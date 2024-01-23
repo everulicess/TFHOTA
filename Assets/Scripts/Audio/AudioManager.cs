@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.UI;
 using System;
 
 public class AudioManager : MonoBehaviour
@@ -10,7 +11,9 @@ public class AudioManager : MonoBehaviour
 
     public static AudioManager instance;
 
-    float mainVolume;
+    public Slider volumeSlider;
+
+    float mainVolume = 0.5f;
     void Awake()
     {
         if (instance == null)
@@ -35,8 +38,18 @@ public class AudioManager : MonoBehaviour
         }
     }
 
+    void Start()
+    {
+        Play("BackgroundMusic");
+    }
+
     private void Update()
     {
+        if (volumeSlider != null)
+        {
+            volumeSlider.value = mainVolume;
+        }
+
         foreach (Sound s in sounds)
         {
             s.source.volume = mainVolume;
@@ -58,32 +71,4 @@ public class AudioManager : MonoBehaviour
     {
             mainVolume = vol;
     }
-
-    //public void ToggleSound(bool check)
-    //{
-    //    if (!check)
-    //    {
-    //        mainVolume = 0;
-    //    }
-    //}
-
-    //public void ToggleMusic(bool check)
-    //{
-    //    foreach (Sound s in sounds)
-    //    {
-    //        if (!check)
-    //        {
-    //            if (!s.loop)
-    //            {
-    //                s.volume = 0;
-    //            }
-    //        }
-
-    //        else
-    //        {
-    //            s.volume = mainVolume;
-    //        }
-    //    }
-    //}
-    // FindObjectOfType<AudioManager>().Play(""); use this in other scripts
 }

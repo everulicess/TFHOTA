@@ -61,6 +61,12 @@ public class GameMenuManager : MonoBehaviour
         controlsObject.SetActive(!controlsObject.activeSelf);
     }
 
+    public void ShowAudio()
+    {
+        settingsObject.SetActive(!settingsObject.activeSelf);
+        audioObject.SetActive(!audioObject.activeSelf);
+    }
+
     // called when changing volume
     public void OnValueChanged()
     {
