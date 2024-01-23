@@ -7,6 +7,9 @@ using System.Linq;
 
 public class DialogueManager : MonoBehaviour
 {
+    [SerializeField]
+    private NPCAnimationController animationController;
+
     public Queue<DialogueFragment> dialogueQueue = new Queue<DialogueFragment>();
 
     [Header("References")]
@@ -52,6 +55,8 @@ public class DialogueManager : MonoBehaviour
                 dialogueQueue.Enqueue(fragment);
             }
         }
+
+        animationController.ChangeAnimation("Talk");
 
         NextSentence();
     }
@@ -166,6 +171,7 @@ public class DialogueManager : MonoBehaviour
         currentDialoguePartner.isActive = false;
         currentDialoguePartner.StopAudio();
         currentDialoguePartner = null;
-        Debug.Log("Set False");
+
+        animationController.ChangeAnimation("Idle");
     }
 }

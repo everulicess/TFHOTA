@@ -7,6 +7,7 @@ public class AnimationStateControllerJurgen : MonoBehaviour
     Animator animator;
     int isTalkingHash;
     int isHappyHash;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +23,7 @@ public class AnimationStateControllerJurgen : MonoBehaviour
         bool isTalking = animator.GetBool(isTalkingHash);
         bool triggerTalking = Input.GetKey("e");
         bool triggerHappy = Input.GetKey("left shift");
+
         if (!isTalking && triggerTalking)
         {
             animator.SetBool(isTalkingHash, true);

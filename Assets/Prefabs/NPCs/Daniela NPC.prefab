@@ -475,7 +475,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1907017686351338028}
   - component: {fileID: 7519497629937965746}
-  - component: {fileID: 9133365597969427432}
+  - component: {fileID: 2458998826720281235}
   m_Layer: 0
   m_Name: Daniela NPC
   m_TagString: Untagged
@@ -523,7 +523,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &9133365597969427432
+--- !u!114 &2458998826720281235
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -532,7 +532,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2502068679036150150}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c29c67274549734faa70d17b00937c8, type: 3}
+  m_Script: {fileID: 11500000, guid: 0c40924239bfdbb499a6740ee5ff23f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2569364530423985230
@@ -1394,6 +1394,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueDispenser
       objectReference: {fileID: 0}
+    - target: {fileID: 7707288260653432936, guid: c5b1c180de1934640a480144527da85b,
+        type: 3}
+      propertyPath: animationController
+      value: 
+      objectReference: {fileID: 2458998826720281235}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
