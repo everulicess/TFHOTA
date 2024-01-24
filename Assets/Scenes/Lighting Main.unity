@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.6602524, g: 0.7541314, b: 0.76858234, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -193,6 +193,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tall Circle Chair (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -216,6 +221,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Double Window
+      objectReference: {fileID: 0}
+    - target: {fileID: 765075553419863464, guid: c6ee15ae479a818438593e18597f2c06,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5191941026794052332, guid: c6ee15ae479a818438593e18597f2c06,
         type: 3}
@@ -271,6 +281,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195951822178858617, guid: c6ee15ae479a818438593e18597f2c06,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -350,6 +365,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Whiteboard (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4995142132610211955, guid: 6fe7b02a68f27c4429c223bb0afd1404,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -814,6 +834,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle Chair (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6144348128623516864, guid: 1ec1aef50ca507646931f14ce9a15f87,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -892,6 +917,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Circle Chair (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6144348128623516864, guid: 1ec1aef50ca507646931f14ce9a15f87,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1124,6 +1154,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle Chair (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6144348128623516864, guid: 1ec1aef50ca507646931f14ce9a15f87,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1146,7 +1181,7 @@ PrefabInstance:
     - target: {fileID: 3838245942644423592, guid: e3b73eac1aeecce49ac3af1d691d4510,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 3838245942644423592, guid: e3b73eac1aeecce49ac3af1d691d4510,
         type: 3}
@@ -1461,7 +1496,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 53
+  m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &51527948
 PrefabInstance:
@@ -1728,6 +1763,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tall Circle Chair (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1806,6 +1846,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Circle Chair (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6144348128623516864, guid: 1ec1aef50ca507646931f14ce9a15f87,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1990,6 +2035,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chair (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070686443323260119, guid: fbf13faf2170eb146a64e7fff53cf664,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2268,6 +2318,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tall Circle Chair (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2296,6 +2351,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Vending Machine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2993686480060546104, guid: 6588a501b18d5ed41924926e67b887d4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6533498638430699046, guid: 6588a501b18d5ed41924926e67b887d4,
         type: 3}
@@ -2864,6 +2924,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle Chair (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6144348128623516864, guid: 1ec1aef50ca507646931f14ce9a15f87,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3042,6 +3107,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle Chair (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 6144348128623516864, guid: 1ec1aef50ca507646931f14ce9a15f87,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3127,6 +3197,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle Chair (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6144348128623516864, guid: 1ec1aef50ca507646931f14ce9a15f87,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3205,6 +3280,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tall Circle Chair (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3405,6 +3485,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Doublesided Table (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458003434656263673, guid: ff27971060ea94e4bb1a712967aeda29,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7381576485911431266, guid: ff27971060ea94e4bb1a712967aeda29,
         type: 3}
@@ -3638,6 +3723,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tall Circle Chair (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5223,6 +5313,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tall Circle Chair (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5359,6 +5454,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cafetaria Counter (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7452865278479985875, guid: 5b88039773cf5e344b184a231bc84e6f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479338230513582141, guid: 5b88039773cf5e344b184a231bc84e6f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5526,6 +5631,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tall Circle Chair (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5811,7 +5921,7 @@ PrefabInstance:
     - target: {fileID: 4741842036668662142, guid: 7ad7c8d9dc282a44785a1de3977bc9b4,
         type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 4741842036668662142, guid: 7ad7c8d9dc282a44785a1de3977bc9b4,
         type: 3}
@@ -5972,6 +6082,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Orange Table (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6748020937660397861, guid: bd008bbb11e816e4eab8c21833f849a9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8449939159721106137, guid: bd008bbb11e816e4eab8c21833f849a9,
         type: 3}
@@ -6245,6 +6360,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tall Circle Chair (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6324,6 +6444,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 9070686443323260119, guid: fbf13faf2170eb146a64e7fff53cf664,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6402,6 +6527,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tall Circle Chair (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6704,7 +6834,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 63
+  m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: 0, y: 125, z: 0}
 --- !u!1001 &243258982
 PrefabInstance:
@@ -6717,7 +6847,7 @@ PrefabInstance:
     - target: {fileID: 460443623661054818, guid: 1fc02750282283e49b3f7afd42305dba,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 460443623661054818, guid: 1fc02750282283e49b3f7afd42305dba,
         type: 3}
@@ -6872,6 +7002,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair
       objectReference: {fileID: 0}
+    - target: {fileID: 9070686443323260119, guid: fbf13faf2170eb146a64e7fff53cf664,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6950,6 +7085,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Circle Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 6144348128623516864, guid: 1ec1aef50ca507646931f14ce9a15f87,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7532,6 +7672,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Onesided Sofa (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6487232444325249120, guid: 9da4730bd39fc6640a425b2db9f7fbaf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7687,6 +7832,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Small Sofa Table (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2484962615304983568, guid: bcd2ce1f3e04505499e664dead0a00f7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3065785592978858568, guid: bcd2ce1f3e04505499e664dead0a00f7,
         type: 3}
@@ -8019,6 +8169,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tall Circle Chair (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8494,7 +8649,7 @@ PrefabInstance:
     - target: {fileID: 4177652890738708441, guid: 6f8555a9023552f44b84bc397ee29293,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4177652890738708441, guid: 6f8555a9023552f44b84bc397ee29293,
         type: 3}
@@ -8573,6 +8728,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Orange Table (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6748020937660397861, guid: bd008bbb11e816e4eab8c21833f849a9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8449939159721106137, guid: bd008bbb11e816e4eab8c21833f849a9,
         type: 3}
@@ -9394,6 +9554,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle Chair (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 6144348128623516864, guid: 1ec1aef50ca507646931f14ce9a15f87,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9417,6 +9582,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Doublesided Table (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458003434656263673, guid: ff27971060ea94e4bb1a712967aeda29,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7381576485911431266, guid: ff27971060ea94e4bb1a712967aeda29,
         type: 3}
@@ -9515,7 +9685,7 @@ Transform:
   - {fileID: 564552702}
   - {fileID: 1013073125}
   m_Father: {fileID: 0}
-  m_RootOrder: 55
+  m_RootOrder: 60
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &319127496
 GameObject:
@@ -9771,6 +9941,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tall Circle Chair (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9794,6 +9969,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wooden Table (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2685181139077600375, guid: 108bea933fbfd4b419c57e000334f2ff,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5450884354687021433, guid: 108bea933fbfd4b419c57e000334f2ff,
         type: 3}
@@ -9929,6 +10109,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Window
       objectReference: {fileID: 0}
+    - target: {fileID: 7441041054118488205, guid: 60a6ed14e6fa47540a134bc2fd04b8e5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9984,7 +10169,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 51
+  m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &328768836 stripped
 Transform:
@@ -10004,6 +10189,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wooden Table (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2685181139077600375, guid: 108bea933fbfd4b419c57e000334f2ff,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5450884354687021433, guid: 108bea933fbfd4b419c57e000334f2ff,
         type: 3}
@@ -10237,6 +10427,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle Chair (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 6144348128623516864, guid: 1ec1aef50ca507646931f14ce9a15f87,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10315,6 +10510,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chair (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070686443323260119, guid: fbf13faf2170eb146a64e7fff53cf664,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10537,6 +10737,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Doublesided Sofa (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 362162234016054279, guid: 4aa7c4a8b83c9c9488530f6f6a94ec22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 378024683117397498, guid: 4aa7c4a8b83c9c9488530f6f6a94ec22,
         type: 3}
@@ -10986,6 +11191,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Whiteboard (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 4995142132610211955, guid: 6fe7b02a68f27c4429c223bb0afd1404,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11064,6 +11274,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tall Circle Chair (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11441,6 +11656,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle Chair (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 6144348128623516864, guid: 1ec1aef50ca507646931f14ce9a15f87,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11551,6 +11771,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tall Circle Chair (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12064,7 +12289,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 5bbd056936e651145acead3aa8321df7,
         type: 3}
       propertyPath: m_RootOrder
-      value: 28
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5bbd056936e651145acead3aa8321df7,
         type: 3}
@@ -12267,6 +12492,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Onesided Sofa (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6487232444325249120, guid: 9da4730bd39fc6640a425b2db9f7fbaf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12345,6 +12575,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Whiteboard (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4995142132610211955, guid: 6fe7b02a68f27c4429c223bb0afd1404,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12557,6 +12792,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle Chair (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 6144348128623516864, guid: 1ec1aef50ca507646931f14ce9a15f87,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12724,7 +12964,7 @@ Transform:
   - {fileID: 1000148187}
   - {fileID: 563256971}
   m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &405757593 stripped
 Transform:
@@ -12871,6 +13111,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Doublesided Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458003434656263673, guid: ff27971060ea94e4bb1a712967aeda29,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7381576485911431266, guid: ff27971060ea94e4bb1a712967aeda29,
         type: 3}
@@ -13026,6 +13271,104 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7122b07a1a85a474085fbeab9f0abb2f, type: 3}
+--- !u!1001 &428046517
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1669957436944295969, guid: e72a6f36ff31ba049b579144ac7df4ac,
+        type: 3}
+      propertyPath: m_Name
+      value: Tropical_Floorplant4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669957436944295969, guid: e72a6f36ff31ba049b579144ac7df4ac,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237846539381195731, guid: e72a6f36ff31ba049b579144ac7df4ac,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237846539381195731, guid: e72a6f36ff31ba049b579144ac7df4ac,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -18.474
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237846539381195731, guid: e72a6f36ff31ba049b579144ac7df4ac,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.083752155
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237846539381195731, guid: e72a6f36ff31ba049b579144ac7df4ac,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.6093642
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237846539381195731, guid: e72a6f36ff31ba049b579144ac7df4ac,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237846539381195731, guid: e72a6f36ff31ba049b579144ac7df4ac,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237846539381195731, guid: e72a6f36ff31ba049b579144ac7df4ac,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237846539381195731, guid: e72a6f36ff31ba049b579144ac7df4ac,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237846539381195731, guid: e72a6f36ff31ba049b579144ac7df4ac,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237846539381195731, guid: e72a6f36ff31ba049b579144ac7df4ac,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237846539381195731, guid: e72a6f36ff31ba049b579144ac7df4ac,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170561691335467751, guid: e72a6f36ff31ba049b579144ac7df4ac,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4412316634075953358, guid: e72a6f36ff31ba049b579144ac7df4ac,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8024907914668710177, guid: e72a6f36ff31ba049b579144ac7df4ac,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8427278675183843744, guid: e72a6f36ff31ba049b579144ac7df4ac,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e72a6f36ff31ba049b579144ac7df4ac, type: 3}
 --- !u!1001 &432737693
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13038,6 +13381,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wooden Table (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2685181139077600375, guid: 108bea933fbfd4b419c57e000334f2ff,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5450884354687021433, guid: 108bea933fbfd4b419c57e000334f2ff,
         type: 3}
@@ -13357,7 +13705,7 @@ Transform:
   - {fileID: 652088081}
   - {fileID: 1284678077}
   m_Father: {fileID: 0}
-  m_RootOrder: 36
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &442228051
 MonoBehaviour:
@@ -13476,6 +13824,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Whiteboard (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4995142132610211955, guid: 6fe7b02a68f27c4429c223bb0afd1404,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13499,6 +13852,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wooden Table (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2685181139077600375, guid: 108bea933fbfd4b419c57e000334f2ff,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5450884354687021433, guid: 108bea933fbfd4b419c57e000334f2ff,
         type: 3}
@@ -13684,6 +14042,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wooden Table (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2685181139077600375, guid: 108bea933fbfd4b419c57e000334f2ff,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5450884354687021433, guid: 108bea933fbfd4b419c57e000334f2ff,
         type: 3}
       propertyPath: m_RootOrder
@@ -13818,6 +14181,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tall Circle Chair (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13896,6 +14264,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tall Circle Chair (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14007,6 +14380,79 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 480277045}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &492347930
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 460443623661054818, guid: 1fc02750282283e49b3f7afd42305dba,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 460443623661054818, guid: 1fc02750282283e49b3f7afd42305dba,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -15.618608
+      objectReference: {fileID: 0}
+    - target: {fileID: 460443623661054818, guid: 1fc02750282283e49b3f7afd42305dba,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.9921601
+      objectReference: {fileID: 0}
+    - target: {fileID: 460443623661054818, guid: 1fc02750282283e49b3f7afd42305dba,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.5436586
+      objectReference: {fileID: 0}
+    - target: {fileID: 460443623661054818, guid: 1fc02750282283e49b3f7afd42305dba,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 460443623661054818, guid: 1fc02750282283e49b3f7afd42305dba,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 460443623661054818, guid: 1fc02750282283e49b3f7afd42305dba,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 460443623661054818, guid: 1fc02750282283e49b3f7afd42305dba,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 460443623661054818, guid: 1fc02750282283e49b3f7afd42305dba,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 460443623661054818, guid: 1fc02750282283e49b3f7afd42305dba,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 460443623661054818, guid: 1fc02750282283e49b3f7afd42305dba,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5730331859555754145, guid: 1fc02750282283e49b3f7afd42305dba,
+        type: 3}
+      propertyPath: m_Name
+      value: Regular_Tableplant4 (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1fc02750282283e49b3f7afd42305dba, type: 3}
 --- !u!1 &493161556 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a734f51937f3bd248b328a69d09e9a7b,
@@ -14202,6 +14648,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tall Circle Chair (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14380,6 +14831,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle Chair (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6144348128623516864, guid: 1ec1aef50ca507646931f14ce9a15f87,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14402,7 +14858,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: fe318bc86c91bed44a255f13ad79be6b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 26
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fe318bc86c91bed44a255f13ad79be6b,
         type: 3}
@@ -14489,6 +14945,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stairs
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe318bc86c91bed44a255f13ad79be6b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14538,6 +14999,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Small Sofa Table (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2484962615304983568, guid: bcd2ce1f3e04505499e664dead0a00f7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3065785592978858568, guid: bcd2ce1f3e04505499e664dead0a00f7,
         type: 3}
@@ -14804,6 +15270,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9070686443323260119, guid: fbf13faf2170eb146a64e7fff53cf664,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14883,6 +15354,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tall Circle Chair (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14906,6 +15382,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Small Sofa Table (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2484962615304983568, guid: bcd2ce1f3e04505499e664dead0a00f7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3065785592978858568, guid: bcd2ce1f3e04505499e664dead0a00f7,
         type: 3}
@@ -15385,7 +15866,7 @@ PrefabInstance:
     - target: {fileID: 460443623661054818, guid: 1fc02750282283e49b3f7afd42305dba,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 460443623661054818, guid: 1fc02750282283e49b3f7afd42305dba,
         type: 3}
@@ -15535,6 +16016,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Window (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7441041054118488205, guid: 60a6ed14e6fa47540a134bc2fd04b8e5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15558,6 +16044,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Doublesided Table (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458003434656263673, guid: ff27971060ea94e4bb1a712967aeda29,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7381576485911431266, guid: ff27971060ea94e4bb1a712967aeda29,
         type: 3}
@@ -15736,6 +16227,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Small Sofa Table (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2484962615304983568, guid: bcd2ce1f3e04505499e664dead0a00f7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3065785592978858568, guid: bcd2ce1f3e04505499e664dead0a00f7,
         type: 3}
@@ -16128,6 +16624,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 9070686443323260119, guid: fbf13faf2170eb146a64e7fff53cf664,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16162,7 +16663,7 @@ PrefabInstance:
     - target: {fileID: 460443623661054818, guid: 1fc02750282283e49b3f7afd42305dba,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 460443623661054818, guid: 1fc02750282283e49b3f7afd42305dba,
         type: 3}
@@ -16255,7 +16756,7 @@ PrefabInstance:
     - target: {fileID: 460443623661054818, guid: 1fc02750282283e49b3f7afd42305dba,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 460443623661054818, guid: 1fc02750282283e49b3f7afd42305dba,
         type: 3}
@@ -16405,6 +16906,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Window (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7441041054118488205, guid: 60a6ed14e6fa47540a134bc2fd04b8e5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16442,7 +16948,7 @@ PrefabInstance:
     - target: {fileID: 4177652890738708441, guid: 6f8555a9023552f44b84bc397ee29293,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4177652890738708441, guid: 6f8555a9023552f44b84bc397ee29293,
         type: 3}
@@ -17497,6 +18003,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Orange Table (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6748020937660397861, guid: bd008bbb11e816e4eab8c21833f849a9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8449939159721106137, guid: bd008bbb11e816e4eab8c21833f849a9,
         type: 3}
       propertyPath: m_RootOrder
@@ -17589,7 +18100,7 @@ PrefabInstance:
     - target: {fileID: 4177652890738708441, guid: 6f8555a9023552f44b84bc397ee29293,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 4177652890738708441, guid: 6f8555a9023552f44b84bc397ee29293,
         type: 3}
@@ -17723,6 +18234,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Circle Chair (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6144348128623516864, guid: 1ec1aef50ca507646931f14ce9a15f87,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17907,6 +18423,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tall Circle Chair (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18575,110 +19096,6 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: 0}
   m_ButtonPressPoint: 0.5
---- !u!1001 &656352540
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1866739012}
-    m_Modifications:
-    - target: {fileID: 1669957436944295969, guid: e72a6f36ff31ba049b579144ac7df4ac,
-        type: 3}
-      propertyPath: m_Name
-      value: Tropical_Floorplant4 (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1669957436944295969, guid: e72a6f36ff31ba049b579144ac7df4ac,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 3237846539381195731, guid: e72a6f36ff31ba049b579144ac7df4ac,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3237846539381195731, guid: e72a6f36ff31ba049b579144ac7df4ac,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 14.295184
-      objectReference: {fileID: 0}
-    - target: {fileID: 3237846539381195731, guid: e72a6f36ff31ba049b579144ac7df4ac,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.45466942
-      objectReference: {fileID: 0}
-    - target: {fileID: 3237846539381195731, guid: e72a6f36ff31ba049b579144ac7df4ac,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.1014241
-      objectReference: {fileID: 0}
-    - target: {fileID: 3237846539381195731, guid: e72a6f36ff31ba049b579144ac7df4ac,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 3237846539381195731, guid: e72a6f36ff31ba049b579144ac7df4ac,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3237846539381195731, guid: e72a6f36ff31ba049b579144ac7df4ac,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 3237846539381195731, guid: e72a6f36ff31ba049b579144ac7df4ac,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3237846539381195731, guid: e72a6f36ff31ba049b579144ac7df4ac,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3237846539381195731, guid: e72a6f36ff31ba049b579144ac7df4ac,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 3237846539381195731, guid: e72a6f36ff31ba049b579144ac7df4ac,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4170561691335467751, guid: e72a6f36ff31ba049b579144ac7df4ac,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 4412316634075953358, guid: e72a6f36ff31ba049b579144ac7df4ac,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 8024907914668710177, guid: e72a6f36ff31ba049b579144ac7df4ac,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 8427278675183843744, guid: e72a6f36ff31ba049b579144ac7df4ac,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e72a6f36ff31ba049b579144ac7df4ac, type: 3}
---- !u!4 &656352541 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3237846539381195731, guid: e72a6f36ff31ba049b579144ac7df4ac,
-    type: 3}
-  m_PrefabInstance: {fileID: 656352540}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &665216679
 GameObject:
   m_ObjectHideFlags: 0
@@ -18723,7 +19140,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 48
+  m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &673576918
 GameObject:
@@ -19778,7 +20195,7 @@ PrefabInstance:
     - target: {fileID: 2536323879518670527, guid: 77e97a5881128f5469c336e00229cb47,
         type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 2536323879518670527, guid: 77e97a5881128f5469c336e00229cb47,
         type: 3}
@@ -20264,6 +20681,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 9070686443323260119, guid: fbf13faf2170eb146a64e7fff53cf664,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20342,6 +20764,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tall Circle Chair (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20537,6 +20964,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Doublesided Table (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4458003434656263673, guid: ff27971060ea94e4bb1a712967aeda29,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7381576485911431266, guid: ff27971060ea94e4bb1a712967aeda29,
         type: 3}
       propertyPath: m_RootOrder
@@ -20713,6 +21145,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tall Circle Chair (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20724,6 +21161,99 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 732609715}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &734839261
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1553811742038703011, guid: b2743386a09c0f04a8dd77e5657f4590,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2303941708607046223, guid: b2743386a09c0f04a8dd77e5657f4590,
+        type: 3}
+      propertyPath: m_Name
+      value: Tropical_Floorplant3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2303941708607046223, guid: b2743386a09c0f04a8dd77e5657f4590,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937591090562838148, guid: b2743386a09c0f04a8dd77e5657f4590,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937591090562838148, guid: b2743386a09c0f04a8dd77e5657f4590,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -18.469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937591090562838148, guid: b2743386a09c0f04a8dd77e5657f4590,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.08375239
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937591090562838148, guid: b2743386a09c0f04a8dd77e5657f4590,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.671118
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937591090562838148, guid: b2743386a09c0f04a8dd77e5657f4590,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937591090562838148, guid: b2743386a09c0f04a8dd77e5657f4590,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937591090562838148, guid: b2743386a09c0f04a8dd77e5657f4590,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937591090562838148, guid: b2743386a09c0f04a8dd77e5657f4590,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937591090562838148, guid: b2743386a09c0f04a8dd77e5657f4590,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937591090562838148, guid: b2743386a09c0f04a8dd77e5657f4590,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937591090562838148, guid: b2743386a09c0f04a8dd77e5657f4590,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5083552073482879253, guid: b2743386a09c0f04a8dd77e5657f4590,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7669615492673738952, guid: b2743386a09c0f04a8dd77e5657f4590,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b2743386a09c0f04a8dd77e5657f4590, type: 3}
 --- !u!1001 &738219597
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20736,6 +21266,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Doublesided Sofa
+      objectReference: {fileID: 0}
+    - target: {fileID: 362162234016054279, guid: 4aa7c4a8b83c9c9488530f6f6a94ec22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 378024683117397498, guid: 4aa7c4a8b83c9c9488530f6f6a94ec22,
         type: 3}
@@ -21670,6 +22205,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Doublesided Table (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4458003434656263673, guid: ff27971060ea94e4bb1a712967aeda29,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7381576485911431266, guid: ff27971060ea94e4bb1a712967aeda29,
         type: 3}
       propertyPath: m_RootOrder
@@ -22152,6 +22692,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tall Circle Chair (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22363,6 +22908,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cafetaria Wallpaper (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 155391844798636561, guid: 649d8830f7ff7c141848d4b74549742c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 758545063136734224, guid: 649d8830f7ff7c141848d4b74549742c,
         type: 3}
       propertyPath: m_RootOrder
@@ -22418,6 +22968,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 3466962391457363123, guid: 649d8830f7ff7c141848d4b74549742c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22441,6 +22996,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Small Sofa Table (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2484962615304983568, guid: bcd2ce1f3e04505499e664dead0a00f7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3065785592978858568, guid: bcd2ce1f3e04505499e664dead0a00f7,
         type: 3}
@@ -22568,7 +23128,7 @@ Transform:
   - {fileID: 1314392260}
   - {fileID: 1915019693}
   m_Father: {fileID: 0}
-  m_RootOrder: 39
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &828723905
 PrefabInstance:
@@ -22737,6 +23297,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 9070686443323260119, guid: fbf13faf2170eb146a64e7fff53cf664,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22830,7 +23395,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 49
+  m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &847880836
 PrefabInstance:
@@ -22858,7 +23423,7 @@ PrefabInstance:
     - target: {fileID: 8755274415320313987, guid: 9494eef75b68ac142998fc7ef3bd108e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 8755274415320313987, guid: 9494eef75b68ac142998fc7ef3bd108e,
         type: 3}
@@ -23056,7 +23621,7 @@ PrefabInstance:
     - target: {fileID: 3237846539381195731, guid: e72a6f36ff31ba049b579144ac7df4ac,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 3237846539381195731, guid: e72a6f36ff31ba049b579144ac7df4ac,
         type: 3}
@@ -23236,6 +23801,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tall Circle Chair (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23357,7 +23927,7 @@ PrefabInstance:
     - target: {fileID: 1977242154392427782, guid: bf5f133d9d2235b4fb41424283f8b3b6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 1977242154392427782, guid: bf5f133d9d2235b4fb41424283f8b3b6,
         type: 3}
@@ -23502,6 +24072,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 9070686443323260119, guid: fbf13faf2170eb146a64e7fff53cf664,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23580,6 +24155,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chair (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070686443323260119, guid: fbf13faf2170eb146a64e7fff53cf664,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24875,6 +25455,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Double Window (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 765075553419863464, guid: c6ee15ae479a818438593e18597f2c06,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5191941026794052332, guid: c6ee15ae479a818438593e18597f2c06,
         type: 3}
       propertyPath: m_RootOrder
@@ -24929,6 +25514,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195951822178858617, guid: c6ee15ae479a818438593e18597f2c06,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25105,6 +25695,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tall Circle Chair (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25183,6 +25778,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tall Circle Chair (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25368,6 +25968,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tall Circle Chair (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25464,7 +26069,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 54
+  m_RootOrder: 59
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &935620991
 GameObject:
@@ -25800,6 +26405,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Window (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7441041054118488205, guid: 60a6ed14e6fa47540a134bc2fd04b8e5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25884,6 +26494,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Circle Chair (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6144348128623516864, guid: 1ec1aef50ca507646931f14ce9a15f87,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26017,6 +26632,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Window (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7441041054118488205, guid: 60a6ed14e6fa47540a134bc2fd04b8e5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26096,6 +26716,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tall Circle Chair (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26119,6 +26744,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wide Sofa Table (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048731160896033865, guid: cb3d59ef383e4bc4695d0b9648a36986,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6484767706176291045, guid: cb3d59ef383e4bc4695d0b9648a36986,
         type: 3}
@@ -26217,7 +26847,7 @@ Transform:
   m_Children:
   - {fileID: 366151635}
   m_Father: {fileID: 0}
-  m_RootOrder: 45
+  m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!114 &997993877
 MonoBehaviour:
@@ -26234,6 +26864,114 @@ MonoBehaviour:
   logo: {fileID: 1001528246}
   text: {fileID: 1464805828}
   display: {fileID: 366151634}
+--- !u!1001 &998326175
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3558248909295099713, guid: e2b91886738f73341bbd0ed8d3b6a380,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4772514389488168245, guid: e2b91886738f73341bbd0ed8d3b6a380,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005305480800559616, guid: e2b91886738f73341bbd0ed8d3b6a380,
+        type: 3}
+      propertyPath: m_Name
+      value: DSHcounter Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005305480800559616, guid: e2b91886738f73341bbd0ed8d3b6a380,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5134358459352626225, guid: e2b91886738f73341bbd0ed8d3b6a380,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5637867351851317434, guid: e2b91886738f73341bbd0ed8d3b6a380,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5637867351851317434, guid: e2b91886738f73341bbd0ed8d3b6a380,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5637867351851317434, guid: e2b91886738f73341bbd0ed8d3b6a380,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5637867351851317434, guid: e2b91886738f73341bbd0ed8d3b6a380,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5637867351851317434, guid: e2b91886738f73341bbd0ed8d3b6a380,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -15.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 5637867351851317434, guid: e2b91886738f73341bbd0ed8d3b6a380,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.031
+      objectReference: {fileID: 0}
+    - target: {fileID: 5637867351851317434, guid: e2b91886738f73341bbd0ed8d3b6a380,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.308
+      objectReference: {fileID: 0}
+    - target: {fileID: 5637867351851317434, guid: e2b91886738f73341bbd0ed8d3b6a380,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5637867351851317434, guid: e2b91886738f73341bbd0ed8d3b6a380,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5637867351851317434, guid: e2b91886738f73341bbd0ed8d3b6a380,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5637867351851317434, guid: e2b91886738f73341bbd0ed8d3b6a380,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5637867351851317434, guid: e2b91886738f73341bbd0ed8d3b6a380,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5637867351851317434, guid: e2b91886738f73341bbd0ed8d3b6a380,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5637867351851317434, guid: e2b91886738f73341bbd0ed8d3b6a380,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e2b91886738f73341bbd0ed8d3b6a380, type: 3}
 --- !u!1001 &998837664
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26301,6 +27039,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Onesided Sofa (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6487232444325249120, guid: 9da4730bd39fc6640a425b2db9f7fbaf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27027,7 +27770,7 @@ PrefabInstance:
     - target: {fileID: 6079642768970370127, guid: 2028a4565971bf84da9d8447552d57fc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 31
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 6079642768970370127, guid: 2028a4565971bf84da9d8447552d57fc,
         type: 3}
@@ -27167,6 +27910,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tall Circle Chair (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27246,6 +27994,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Window (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7441041054118488205, guid: 60a6ed14e6fa47540a134bc2fd04b8e5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27324,6 +28077,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chair (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070686443323260119, guid: fbf13faf2170eb146a64e7fff53cf664,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28330,6 +29088,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle Chair (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6144348128623516864, guid: 1ec1aef50ca507646931f14ce9a15f87,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -28353,6 +29116,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wide Sofa Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048731160896033865, guid: cb3d59ef383e4bc4695d0b9648a36986,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6484767706176291045, guid: cb3d59ef383e4bc4695d0b9648a36986,
         type: 3}
@@ -28478,7 +29246,7 @@ PrefabInstance:
     - target: {fileID: 5744487706295896909, guid: 930c2dabcd1616144af554f2c7c5fd2d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 5744487706295896909, guid: 930c2dabcd1616144af554f2c7c5fd2d,
         type: 3}
@@ -28653,7 +29421,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 37
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1049762527
 PrefabInstance:
@@ -28871,6 +29639,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wooden Table (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 2685181139077600375, guid: 108bea933fbfd4b419c57e000334f2ff,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5450884354687021433, guid: 108bea933fbfd4b419c57e000334f2ff,
         type: 3}
       propertyPath: m_RootOrder
@@ -29002,6 +29775,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wooden Table (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2685181139077600375, guid: 108bea933fbfd4b419c57e000334f2ff,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5450884354687021433, guid: 108bea933fbfd4b419c57e000334f2ff,
         type: 3}
@@ -29137,6 +29915,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tall Circle Chair (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29192,6 +29975,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Doublesided Table (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458003434656263673, guid: ff27971060ea94e4bb1a712967aeda29,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7381576485911431266, guid: ff27971060ea94e4bb1a712967aeda29,
         type: 3}
@@ -29426,6 +30214,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Whiteboard (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4995142132610211955, guid: 6fe7b02a68f27c4429c223bb0afd1404,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29505,6 +30298,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle Chair (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 6144348128623516864, guid: 1ec1aef50ca507646931f14ce9a15f87,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29527,7 +30325,7 @@ PrefabInstance:
     - target: {fileID: 3180550466202489868, guid: d572a480f2cafb043bae4d2f46740d89,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 3180550466202489868, guid: d572a480f2cafb043bae4d2f46740d89,
         type: 3}
@@ -30052,6 +30850,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle Chair (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 6144348128623516864, guid: 1ec1aef50ca507646931f14ce9a15f87,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -30230,6 +31033,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tall Circle Chair (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -30330,6 +31138,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Small Sofa Table (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2484962615304983568, guid: bcd2ce1f3e04505499e664dead0a00f7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3065785592978858568, guid: bcd2ce1f3e04505499e664dead0a00f7,
         type: 3}
@@ -30508,6 +31321,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wooden Table (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2685181139077600375, guid: 108bea933fbfd4b419c57e000334f2ff,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5450884354687021433, guid: 108bea933fbfd4b419c57e000334f2ff,
         type: 3}
@@ -30915,6 +31733,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Doublesided Table (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4458003434656263673, guid: ff27971060ea94e4bb1a712967aeda29,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7381576485911431266, guid: ff27971060ea94e4bb1a712967aeda29,
         type: 3}
       propertyPath: m_RootOrder
@@ -31048,6 +31871,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chair (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070686443323260119, guid: fbf13faf2170eb146a64e7fff53cf664,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -31191,7 +32019,7 @@ PrefabInstance:
     - target: {fileID: 4177652890738708441, guid: 6f8555a9023552f44b84bc397ee29293,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4177652890738708441, guid: 6f8555a9023552f44b84bc397ee29293,
         type: 3}
@@ -31271,10 +32099,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: 3D printer_Preafab
       objectReference: {fileID: 0}
+    - target: {fileID: 975997384371569269, guid: ebb676ebfbb3f2f4cb1cc6649eb887bd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2858769925371302148, guid: ebb676ebfbb3f2f4cb1cc6649eb887bd,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 2858769925371302148, guid: ebb676ebfbb3f2f4cb1cc6649eb887bd,
         type: 3}
@@ -31357,7 +32190,7 @@ PrefabInstance:
     - target: {fileID: 460443623661054818, guid: 1fc02750282283e49b3f7afd42305dba,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 460443623661054818, guid: 1fc02750282283e49b3f7afd42305dba,
         type: 3}
@@ -31506,6 +32339,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Window (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7441041054118488205, guid: 60a6ed14e6fa47540a134bc2fd04b8e5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -31923,6 +32761,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 9070686443323260119, guid: fbf13faf2170eb146a64e7fff53cf664,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -32002,6 +32845,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle Chair (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6144348128623516864, guid: 1ec1aef50ca507646931f14ce9a15f87,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -32021,10 +32869,40 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1277260683864563934, guid: 1cf4e8496ee49b24384eb7cb1108728f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1696668153462477447, guid: 1cf4e8496ee49b24384eb7cb1108728f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668710847104446531, guid: 1cf4e8496ee49b24384eb7cb1108728f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6443273522080053799, guid: 1cf4e8496ee49b24384eb7cb1108728f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6635650582353546533, guid: 1cf4e8496ee49b24384eb7cb1108728f,
         type: 3}
       propertyPath: m_Name
       value: MinigameStation (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635650582353546533, guid: 1cf4e8496ee49b24384eb7cb1108728f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7932374380044302431, guid: 1cf4e8496ee49b24384eb7cb1108728f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8802274925254131510, guid: 1cf4e8496ee49b24384eb7cb1108728f,
         type: 3}
@@ -32069,7 +32947,7 @@ PrefabInstance:
     - target: {fileID: 8925938204311391051, guid: 1cf4e8496ee49b24384eb7cb1108728f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 42
+      value: 43
       objectReference: {fileID: 0}
     - target: {fileID: 8925938204311391051, guid: 1cf4e8496ee49b24384eb7cb1108728f,
         type: 3}
@@ -32194,6 +33072,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Whiteboard (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4995142132610211955, guid: 6fe7b02a68f27c4429c223bb0afd1404,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -32216,7 +33099,7 @@ PrefabInstance:
     - target: {fileID: 2915370628763854699, guid: 87e9708e6953d104e80afbb25a5e68c4,
         type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 2915370628763854699, guid: 87e9708e6953d104e80afbb25a5e68c4,
         type: 3}
@@ -32423,7 +33306,7 @@ Transform:
   - {fileID: 1866739012}
   - {fileID: 393986281}
   m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1249235167 stripped
 Transform:
@@ -32587,6 +33470,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair
       objectReference: {fileID: 0}
+    - target: {fileID: 9070686443323260119, guid: fbf13faf2170eb146a64e7fff53cf664,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -32628,6 +33516,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Small Sofa Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 2484962615304983568, guid: bcd2ce1f3e04505499e664dead0a00f7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3065785592978858568, guid: bcd2ce1f3e04505499e664dead0a00f7,
         type: 3}
@@ -32769,6 +33662,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tall Circle Chair (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -32847,6 +33745,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tall Circle Chair (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -32980,6 +33883,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tall Circle Chair (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -33158,6 +34066,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tall Circle Chair (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -33368,6 +34281,79 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1303555394}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1304942524
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4177652890738708441, guid: 6f8555a9023552f44b84bc397ee29293,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4177652890738708441, guid: 6f8555a9023552f44b84bc397ee29293,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -15.676293
+      objectReference: {fileID: 0}
+    - target: {fileID: 4177652890738708441, guid: 6f8555a9023552f44b84bc397ee29293,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.9921601
+      objectReference: {fileID: 0}
+    - target: {fileID: 4177652890738708441, guid: 6f8555a9023552f44b84bc397ee29293,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.8903213
+      objectReference: {fileID: 0}
+    - target: {fileID: 4177652890738708441, guid: 6f8555a9023552f44b84bc397ee29293,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4177652890738708441, guid: 6f8555a9023552f44b84bc397ee29293,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4177652890738708441, guid: 6f8555a9023552f44b84bc397ee29293,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4177652890738708441, guid: 6f8555a9023552f44b84bc397ee29293,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4177652890738708441, guid: 6f8555a9023552f44b84bc397ee29293,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4177652890738708441, guid: 6f8555a9023552f44b84bc397ee29293,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4177652890738708441, guid: 6f8555a9023552f44b84bc397ee29293,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6763566354434449509, guid: 6f8555a9023552f44b84bc397ee29293,
+        type: 3}
+      propertyPath: m_Name
+      value: Regular_Tableplant3 (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6f8555a9023552f44b84bc397ee29293, type: 3}
 --- !u!1001 &1306250377
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33435,6 +34421,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Whiteboard (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4995142132610211955, guid: 6fe7b02a68f27c4429c223bb0afd1404,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -33740,7 +34731,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b662f1564b9bd804d86c72a462888f76,
         type: 3}
       propertyPath: m_RootOrder
-      value: 29
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b662f1564b9bd804d86c72a462888f76,
         type: 3}
@@ -33890,6 +34881,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tall Circle Chair (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -33968,6 +34964,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Window (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7441041054118488205, guid: 60a6ed14e6fa47540a134bc2fd04b8e5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -34153,6 +35154,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle Chair (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6144348128623516864, guid: 1ec1aef50ca507646931f14ce9a15f87,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -34231,6 +35237,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chair (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070686443323260119, guid: fbf13faf2170eb146a64e7fff53cf664,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -34410,6 +35421,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9070686443323260119, guid: fbf13faf2170eb146a64e7fff53cf664,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -34433,6 +35449,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wooden Table (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2685181139077600375, guid: 108bea933fbfd4b419c57e000334f2ff,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5450884354687021433, guid: 108bea933fbfd4b419c57e000334f2ff,
         type: 3}
@@ -34567,6 +35588,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Whiteboard (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4995142132610211955, guid: 6fe7b02a68f27c4429c223bb0afd1404,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -34745,6 +35771,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tall Circle Chair (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -36158,6 +37189,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tall Circle Chair (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -36180,7 +37216,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: ac3bb7e4546015544a36cfbda36d38cd,
         type: 3}
       propertyPath: m_RootOrder
-      value: 25
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ac3bb7e4546015544a36cfbda36d38cd,
         type: 3}
@@ -36257,6 +37293,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GroundFloor
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ac3bb7e4546015544a36cfbda36d38cd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -36278,6 +37319,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Orange Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 6748020937660397861, guid: bd008bbb11e816e4eab8c21833f849a9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8449939159721106137, guid: bd008bbb11e816e4eab8c21833f849a9,
         type: 3}
@@ -36357,6 +37403,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wooden Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 2685181139077600375, guid: 108bea933fbfd4b419c57e000334f2ff,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5450884354687021433, guid: 108bea933fbfd4b419c57e000334f2ff,
         type: 3}
@@ -36453,7 +37504,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 46
+  m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1411575635
 PrefabInstance:
@@ -36467,6 +37518,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Doublesided Table (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458003434656263673, guid: ff27971060ea94e4bb1a712967aeda29,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7381576485911431266, guid: ff27971060ea94e4bb1a712967aeda29,
         type: 3}
@@ -37065,6 +38121,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Small Sofa Table (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 2484962615304983568, guid: bcd2ce1f3e04505499e664dead0a00f7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3065785592978858568, guid: bcd2ce1f3e04505499e664dead0a00f7,
         type: 3}
       propertyPath: m_RootOrder
@@ -37199,6 +38260,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Window (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7441041054118488205, guid: 60a6ed14e6fa47540a134bc2fd04b8e5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -37277,6 +38343,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chair (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070686443323260119, guid: fbf13faf2170eb146a64e7fff53cf664,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -37623,7 +38694,7 @@ PrefabInstance:
     - target: {fileID: 2569774708083657306, guid: 972be826d5f5cda45be77e6952d58514,
         type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 2569774708083657306, guid: 972be826d5f5cda45be77e6952d58514,
         type: 3}
@@ -37903,6 +38974,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chair (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070686443323260119, guid: fbf13faf2170eb146a64e7fff53cf664,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -38269,6 +39345,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tall Circle Chair (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -38409,7 +39490,7 @@ Transform:
   m_Children:
   - {fileID: 1003648574}
   m_Father: {fileID: 0}
-  m_RootOrder: 60
+  m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1519869276 stripped
 MonoBehaviour:
@@ -38678,6 +39759,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tall Circle Chair (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -38747,6 +39833,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wooden Table (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2685181139077600375, guid: 108bea933fbfd4b419c57e000334f2ff,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5450884354687021433, guid: 108bea933fbfd4b419c57e000334f2ff,
         type: 3}
@@ -38843,7 +39934,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 56
+  m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1548280999
 PrefabInstance:
@@ -38856,7 +39947,7 @@ PrefabInstance:
     - target: {fileID: 460443623661054818, guid: 1fc02750282283e49b3f7afd42305dba,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 460443623661054818, guid: 1fc02750282283e49b3f7afd42305dba,
         type: 3}
@@ -39324,6 +40415,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Doublesided Table (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 4458003434656263673, guid: ff27971060ea94e4bb1a712967aeda29,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7381576485911431266, guid: ff27971060ea94e4bb1a712967aeda29,
         type: 3}
       propertyPath: m_RootOrder
@@ -39458,6 +40554,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Window (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7441041054118488205, guid: 60a6ed14e6fa47540a134bc2fd04b8e5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -39481,6 +40582,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wide Sofa Table Cafetaria
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048731160896033865, guid: cb3d59ef383e4bc4695d0b9648a36986,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6484767706176291045, guid: cb3d59ef383e4bc4695d0b9648a36986,
         type: 3}
@@ -39631,6 +40737,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tall Circle Chair (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -39709,6 +40820,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chair (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070686443323260119, guid: fbf13faf2170eb146a64e7fff53cf664,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -39893,6 +41009,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tall Circle Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -40562,6 +41683,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tall Circle Chair (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -40640,6 +41766,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tall Circle Chair (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -40720,6 +41851,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle Chair (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 6144348128623516864, guid: 1ec1aef50ca507646931f14ce9a15f87,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -40743,6 +41879,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Small Sofa Table (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2484962615304983568, guid: bcd2ce1f3e04505499e664dead0a00f7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3065785592978858568, guid: bcd2ce1f3e04505499e664dead0a00f7,
         type: 3}
@@ -40930,6 +42071,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cafetaria Counter
+      objectReference: {fileID: 0}
+    - target: {fileID: 7452865278479985875, guid: 5b88039773cf5e344b184a231bc84e6f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479338230513582141, guid: 5b88039773cf5e344b184a231bc84e6f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -41311,6 +42462,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Window (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7441041054118488205, guid: 60a6ed14e6fa47540a134bc2fd04b8e5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -41433,7 +42589,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1623112741
 MonoBehaviour:
@@ -41658,6 +42814,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Doublesided Table (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458003434656263673, guid: ff27971060ea94e4bb1a712967aeda29,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7381576485911431266, guid: ff27971060ea94e4bb1a712967aeda29,
         type: 3}
@@ -41938,6 +43099,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Doublesided Table (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458003434656263673, guid: ff27971060ea94e4bb1a712967aeda29,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7381576485911431266, guid: ff27971060ea94e4bb1a712967aeda29,
         type: 3}
@@ -42932,6 +44098,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Onesided Sofa
       objectReference: {fileID: 0}
+    - target: {fileID: 6487232444325249120, guid: 9da4730bd39fc6640a425b2db9f7fbaf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -43010,6 +44181,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tall Circle Chair (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -43242,6 +44418,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 9070686443323260119, guid: fbf13faf2170eb146a64e7fff53cf664,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -43265,6 +44446,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Small Sofa Table (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2484962615304983568, guid: bcd2ce1f3e04505499e664dead0a00f7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3065785592978858568, guid: bcd2ce1f3e04505499e664dead0a00f7,
         type: 3}
@@ -43399,6 +44585,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tall Circle Chair (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -43578,6 +44769,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 9070686443323260119, guid: fbf13faf2170eb146a64e7fff53cf664,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -43654,6 +44850,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wooden Table (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2685181139077600375, guid: 108bea933fbfd4b419c57e000334f2ff,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5450884354687021433, guid: 108bea933fbfd4b419c57e000334f2ff,
         type: 3}
@@ -43987,6 +45188,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Onesided Sofa (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6487232444325249120, guid: 9da4730bd39fc6640a425b2db9f7fbaf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -44065,6 +45271,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tall Circle Chair (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -44392,6 +45603,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tall Circle Chair (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -44415,6 +45631,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wooden Table (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2685181139077600375, guid: 108bea933fbfd4b419c57e000334f2ff,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5450884354687021433, guid: 108bea933fbfd4b419c57e000334f2ff,
         type: 3}
@@ -44584,6 +45805,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Circle Chair (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6144348128623516864, guid: 1ec1aef50ca507646931f14ce9a15f87,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -44862,6 +46088,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tall Circle Chair (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -44987,6 +46218,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Circle Chair (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6144348128623516864, guid: 1ec1aef50ca507646931f14ce9a15f87,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -45196,7 +46432,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 063f7b004c2153741bdb002340d0c4f7,
         type: 3}
       propertyPath: m_RootOrder
-      value: 24
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 063f7b004c2153741bdb002340d0c4f7,
         type: 3}
@@ -45654,6 +46890,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tall Circle Chair (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -45693,7 +46934,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 656352541}
   - {fileID: 1861457981}
   - {fileID: 1567066644}
   - {fileID: 706408349}
@@ -45762,7 +47002,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1888275523
 PrefabInstance:
@@ -45881,7 +47121,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 43
+  m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1895466473
 GameObject:
@@ -46020,7 +47260,7 @@ PrefabInstance:
     - target: {fileID: 8062968884053186123, guid: 80ce251779322f24d96c53d590393243,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 8062968884053186123, guid: 80ce251779322f24d96c53d590393243,
         type: 3}
@@ -46212,6 +47452,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Whiteboard (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4995142132610211955, guid: 6fe7b02a68f27c4429c223bb0afd1404,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -46429,6 +47674,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Doublesided Sofa (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 362162234016054279, guid: 4aa7c4a8b83c9c9488530f6f6a94ec22,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 378024683117397498, guid: 4aa7c4a8b83c9c9488530f6f6a94ec22,
         type: 3}
       propertyPath: m_RootOrder
@@ -46596,6 +47846,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Whiteboard
       objectReference: {fileID: 0}
+    - target: {fileID: 4995142132610211955, guid: 6fe7b02a68f27c4429c223bb0afd1404,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -46674,6 +47929,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tall Circle Chair (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -46754,6 +48014,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Onesided Sofa (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6487232444325249120, guid: 9da4730bd39fc6640a425b2db9f7fbaf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -46776,7 +48041,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 14820d110bddf614db38c755e21c28d5,
         type: 3}
       propertyPath: m_RootOrder
-      value: 40
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 14820d110bddf614db38c755e21c28d5,
         type: 3}
@@ -47079,6 +48344,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 9070686443323260119, guid: fbf13faf2170eb146a64e7fff53cf664,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -47193,7 +48463,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 62
+  m_RootOrder: 67
   m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
 --- !u!1001 &1965993527
 PrefabInstance:
@@ -47262,6 +48532,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chair (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070686443323260119, guid: fbf13faf2170eb146a64e7fff53cf664,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -47341,6 +48616,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Window (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7441041054118488205, guid: 60a6ed14e6fa47540a134bc2fd04b8e5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -47811,6 +49091,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tall Circle Chair (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -47853,7 +49138,7 @@ Transform:
   - {fileID: 1371853890}
   - {fileID: 1528062450}
   m_Father: {fileID: 0}
-  m_RootOrder: 35
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2007668468
 PrefabInstance:
@@ -47866,7 +49151,7 @@ PrefabInstance:
     - target: {fileID: 8112522701273893418, guid: 7122b07a1a85a474085fbeab9f0abb2f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 8112522701273893418, guid: 7122b07a1a85a474085fbeab9f0abb2f,
         type: 3}
@@ -48070,6 +49355,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tall Circle Chair (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -48092,7 +49382,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: a734f51937f3bd248b328a69d09e9a7b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 27
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a734f51937f3bd248b328a69d09e9a7b,
         type: 3}
@@ -48168,6 +49458,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FirstFloor
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a734f51937f3bd248b328a69d09e9a7b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -48325,7 +49620,7 @@ Transform:
   - {fileID: 1414720388}
   - {fileID: 198249245}
   m_Father: {fileID: 0}
-  m_RootOrder: 61
+  m_RootOrder: 66
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2058225506
 PrefabInstance:
@@ -48394,6 +49689,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chair (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070686443323260119, guid: fbf13faf2170eb146a64e7fff53cf664,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -48478,7 +49778,7 @@ Transform:
   m_Children:
   - {fileID: 131869927}
   m_Father: {fileID: 0}
-  m_RootOrder: 47
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!143 &2058226542
 CharacterController:
@@ -48962,6 +50262,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle Chair (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6144348128623516864, guid: 1ec1aef50ca507646931f14ce9a15f87,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -49040,6 +50345,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Window (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7441041054118488205, guid: 60a6ed14e6fa47540a134bc2fd04b8e5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -50126,6 +51436,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tall Circle Chair (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 4752551224956609142, guid: 44189521a6862644fa72e3c6b22ca8a0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -50496,7 +51811,7 @@ Transform:
   - {fileID: 377947988}
   - {fileID: 455824516}
   m_Father: {fileID: 0}
-  m_RootOrder: 38
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &762537136403599735
 PrefabInstance:
@@ -50524,7 +51839,7 @@ PrefabInstance:
     - target: {fileID: 4620544829680872627, guid: 6d465754c83d0ba41af48fc5da4d06b3,
         type: 3}
       propertyPath: m_RootOrder
-      value: 52
+      value: 57
       objectReference: {fileID: 0}
     - target: {fileID: 4620544829680872627, guid: 6d465754c83d0ba41af48fc5da4d06b3,
         type: 3}
@@ -50906,7 +52221,7 @@ PrefabInstance:
     - target: {fileID: 8901612550076579865, guid: b865232f13138a14184981578f4aedab,
         type: 3}
       propertyPath: m_RootOrder
-      value: 58
+      value: 63
       objectReference: {fileID: 0}
     - target: {fileID: 8901612550076579865, guid: b865232f13138a14184981578f4aedab,
         type: 3}
@@ -50971,15 +52286,45 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1277260683864563934, guid: 1cf4e8496ee49b24384eb7cb1108728f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1696668153462477447, guid: 1cf4e8496ee49b24384eb7cb1108728f,
         type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1696668153462477447, guid: 1cf4e8496ee49b24384eb7cb1108728f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668710847104446531, guid: 1cf4e8496ee49b24384eb7cb1108728f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6443273522080053799, guid: 1cf4e8496ee49b24384eb7cb1108728f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6635650582353546533, guid: 1cf4e8496ee49b24384eb7cb1108728f,
         type: 3}
       propertyPath: m_Name
       value: MinigameStation
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635650582353546533, guid: 1cf4e8496ee49b24384eb7cb1108728f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7932374380044302431, guid: 1cf4e8496ee49b24384eb7cb1108728f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8802274925254131510, guid: 1cf4e8496ee49b24384eb7cb1108728f,
         type: 3}
@@ -51024,7 +52369,7 @@ PrefabInstance:
     - target: {fileID: 8925938204311391051, guid: 1cf4e8496ee49b24384eb7cb1108728f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 41
+      value: 42
       objectReference: {fileID: 0}
     - target: {fileID: 8925938204311391051, guid: 1cf4e8496ee49b24384eb7cb1108728f,
         type: 3}
@@ -51172,7 +52517,7 @@ PrefabInstance:
     - target: {fileID: 5134949866343608676, guid: 6b4ea362ee60f174aa5f6aa78aab2016,
         type: 3}
       propertyPath: m_RootOrder
-      value: 44
+      value: 49
       objectReference: {fileID: 0}
     - target: {fileID: 5134949866343608676, guid: 6b4ea362ee60f174aa5f6aa78aab2016,
         type: 3}
@@ -51319,6 +52664,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cafetaria Wallpaper
       objectReference: {fileID: 0}
+    - target: {fileID: 155391844798636561, guid: 649d8830f7ff7c141848d4b74549742c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 758545063136734224, guid: 649d8830f7ff7c141848d4b74549742c,
         type: 3}
       propertyPath: m_RootOrder
@@ -51373,6 +52723,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3466962391457363123, guid: 649d8830f7ff7c141848d4b74549742c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -51525,7 +52880,7 @@ PrefabInstance:
     - target: {fileID: 1907017686351338028, guid: 458c49e4455787d46a0068edaffae4ae,
         type: 3}
       propertyPath: m_RootOrder
-      value: 59
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1907017686351338028, guid: 458c49e4455787d46a0068edaffae4ae,
         type: 3}
@@ -51673,12 +53028,12 @@ PrefabInstance:
     - target: {fileID: 5288615219534278877, guid: 88fcc1c0a53784c4eaf855ead9e3a81a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 57
+      value: 62
       objectReference: {fileID: 0}
     - target: {fileID: 5288615219534278877, guid: 88fcc1c0a53784c4eaf855ead9e3a81a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -15.611628
+      value: -14.847
       objectReference: {fileID: 0}
     - target: {fileID: 5288615219534278877, guid: 88fcc1c0a53784c4eaf855ead9e3a81a,
         type: 3}
@@ -51688,7 +53043,7 @@ PrefabInstance:
     - target: {fileID: 5288615219534278877, guid: 88fcc1c0a53784c4eaf855ead9e3a81a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.8869607
+      value: 1.137
       objectReference: {fileID: 0}
     - target: {fileID: 5288615219534278877, guid: 88fcc1c0a53784c4eaf855ead9e3a81a,
         type: 3}
@@ -51954,7 +53309,7 @@ PrefabInstance:
     - target: {fileID: 7222321458505011083, guid: 03167d8d7d59f6444a8c63dce85af5a1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 50
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 7222321458505011083, guid: 03167d8d7d59f6444a8c63dce85af5a1,
         type: 3}
