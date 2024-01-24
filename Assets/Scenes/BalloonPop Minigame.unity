@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.66243005, g: 0.7588795, b: 0.7726265, a: 1}
+  m_IndirectSpecularColor: {r: 0.6602524, g: 0.7541314, b: 0.76858234, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,7 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 0d1c4646b9989d8428153b580463d4ac,
+    type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 7e5579e56638b3b47ab436c3fc02af23,
     type: 2}
 --- !u!196 &4
@@ -4364,6 +4365,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1590718548}
     m_Modifications:
+    - target: {fileID: 2332010653377843792, guid: 3419413d67acc9848b28ae7ff55c5402,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6747646571606199185, guid: 3419413d67acc9848b28ae7ff55c5402,
         type: 3}
       propertyPath: m_RootOrder
@@ -4424,6 +4430,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoofLight (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7277332208667661894, guid: 3419413d67acc9848b28ae7ff55c5402,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7378815263532552401, guid: 3419413d67acc9848b28ae7ff55c5402,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9116481054540833488, guid: 3419413d67acc9848b28ae7ff55c5402,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4443,6 +4464,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1590718548}
     m_Modifications:
+    - target: {fileID: 2332010653377843792, guid: 3419413d67acc9848b28ae7ff55c5402,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6747646571606199185, guid: 3419413d67acc9848b28ae7ff55c5402,
         type: 3}
       propertyPath: m_RootOrder
@@ -4502,6 +4528,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RoofLight (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7277332208667661894, guid: 3419413d67acc9848b28ae7ff55c5402,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7378815263532552401, guid: 3419413d67acc9848b28ae7ff55c5402,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9116481054540833488, guid: 3419413d67acc9848b28ae7ff55c5402,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7156,6 +7197,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1590718548}
     m_Modifications:
+    - target: {fileID: 2332010653377843792, guid: 3419413d67acc9848b28ae7ff55c5402,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6747646571606199185, guid: 3419413d67acc9848b28ae7ff55c5402,
         type: 3}
       propertyPath: m_RootOrder
@@ -7215,6 +7261,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RoofLight (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7277332208667661894, guid: 3419413d67acc9848b28ae7ff55c5402,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7378815263532552401, guid: 3419413d67acc9848b28ae7ff55c5402,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9116481054540833488, guid: 3419413d67acc9848b28ae7ff55c5402,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7698,6 +7759,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1590718548}
     m_Modifications:
+    - target: {fileID: 2332010653377843792, guid: 3419413d67acc9848b28ae7ff55c5402,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6747646571606199185, guid: 3419413d67acc9848b28ae7ff55c5402,
         type: 3}
       propertyPath: m_RootOrder
@@ -7757,6 +7823,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RoofLight (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7277332208667661894, guid: 3419413d67acc9848b28ae7ff55c5402,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7378815263532552401, guid: 3419413d67acc9848b28ae7ff55c5402,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9116481054540833488, guid: 3419413d67acc9848b28ae7ff55c5402,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8203,7 +8284,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!64 &1507078326
 MeshCollider:
@@ -10781,6 +10862,120 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1777548774}
   m_CullTransparentMesh: 1
+--- !u!1 &1822359348
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1822359350}
+  - component: {fileID: 1822359349}
+  m_Layer: 0
+  m_Name: Light Probe Group
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!220 &1822359349
+LightProbeGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822359348}
+  m_Enabled: 1
+  m_SourcePositions:
+  - {x: 0.9247613, y: 2.0834384, z: 1}
+  - {x: 0.9247613, y: 2.0834384, z: -1}
+  - {x: 0.9247613, y: 0.083438665, z: 1}
+  - {x: 0.9247613, y: 0.083438665, z: -1}
+  - {x: -1.0752387, y: 2.0834384, z: 1}
+  - {x: -1.0752387, y: 2.0834384, z: -1}
+  - {x: -1.0752387, y: 0.083438665, z: 1}
+  - {x: -1.0752387, y: 0.083438665, z: -1}
+  - {x: -0.068390384, y: 2.0834384, z: 1}
+  - {x: -0.068390384, y: 2.0834384, z: -1}
+  - {x: -0.068390384, y: 0.083438665, z: 1}
+  - {x: -0.068390384, y: 0.083438665, z: -1}
+  - {x: 0.9247613, y: 2.0834384, z: 0.05199185}
+  - {x: 0.9247613, y: 0.083438665, z: 0.05199185}
+  - {x: -1.0752387, y: 2.0834384, z: 0.05199185}
+  - {x: -1.0752387, y: 0.083438665, z: 0.05199185}
+  - {x: -0.068390384, y: 2.0834384, z: 0.05199185}
+  - {x: -0.068390384, y: 0.083438665, z: 0.05199185}
+  - {x: 0.9247613, y: 1.1053348, z: 1}
+  - {x: 0.9247613, y: 1.1053348, z: -1}
+  - {x: -1.0752387, y: 1.1053348, z: 1}
+  - {x: -1.0752387, y: 1.1053348, z: -1}
+  - {x: -0.068390384, y: 1.1053348, z: 1}
+  - {x: -0.068390384, y: 1.1053348, z: -1}
+  - {x: 0.9247613, y: 1.1053348, z: 0.05199182}
+  - {x: -1.0752387, y: 1.1053348, z: 0.05199182}
+  - {x: -0.068390384, y: 1.1053348, z: 0.05199182}
+  - {x: 0.9247613, y: 2.0834384, z: -1.8891685}
+  - {x: 0.9247613, y: 2.0834384, z: -3.8891685}
+  - {x: 0.9247613, y: 0.083438665, z: -1.8891685}
+  - {x: 0.9247613, y: 0.083438665, z: -3.8891685}
+  - {x: -1.0752387, y: 2.0834384, z: -1.8891685}
+  - {x: -1.0752387, y: 2.0834384, z: -3.8891685}
+  - {x: -1.0752387, y: 0.083438665, z: -1.8891685}
+  - {x: -1.0752387, y: 0.083438665, z: -3.8891685}
+  - {x: -0.068390384, y: 2.0834384, z: -1.8891685}
+  - {x: -0.068390384, y: 2.0834384, z: -3.8891685}
+  - {x: -0.068390384, y: 0.083438665, z: -1.8891685}
+  - {x: -0.068390384, y: 0.083438665, z: -3.8891685}
+  - {x: 0.9247613, y: 2.0834384, z: -2.8371766}
+  - {x: 0.9247613, y: 0.083438665, z: -2.8371766}
+  - {x: -1.0752387, y: 2.0834384, z: -2.8371766}
+  - {x: -1.0752387, y: 0.083438665, z: -2.8371766}
+  - {x: -0.068390384, y: 2.0834384, z: -2.8371766}
+  - {x: -0.068390384, y: 0.083438665, z: -2.8371766}
+  - {x: 0.9247613, y: 1.1053348, z: -1.8891685}
+  - {x: 0.9247613, y: 1.1053348, z: -3.8891685}
+  - {x: -1.0752387, y: 1.1053348, z: -1.8891685}
+  - {x: -1.0752387, y: 1.1053348, z: -3.8891685}
+  - {x: -0.068390384, y: 1.1053348, z: -1.8891685}
+  - {x: -0.068390384, y: 1.1053348, z: -3.8891685}
+  - {x: 0.9247613, y: 1.1053348, z: -2.8371766}
+  - {x: -1.0752387, y: 1.1053348, z: -2.8371766}
+  - {x: -0.068390384, y: 1.1053348, z: -2.8371766}
+  - {x: 0.9247613, y: 2.0834384, z: -5.138131}
+  - {x: 0.9247613, y: 0.083438665, z: -5.138131}
+  - {x: -1.0752387, y: 2.0834384, z: -5.138131}
+  - {x: -1.0752387, y: 0.083438665, z: -5.138131}
+  - {x: -0.068390384, y: 2.0834384, z: -5.138131}
+  - {x: -0.068390384, y: 0.083438665, z: -5.138131}
+  - {x: 0.9247613, y: 1.1053348, z: -5.138131}
+  - {x: -1.0752387, y: 1.1053348, z: -5.138131}
+  - {x: -0.068390384, y: 1.1053348, z: -5.138131}
+  - {x: 0.9247613, y: 2.0834384, z: -4.686699}
+  - {x: 0.9247613, y: 0.083438665, z: -4.686699}
+  - {x: -1.0752387, y: 2.0834384, z: -4.686699}
+  - {x: -1.0752387, y: 0.083438665, z: -4.686699}
+  - {x: -0.068390384, y: 2.0834384, z: -4.686699}
+  - {x: -0.068390384, y: 0.083438665, z: -4.686699}
+  - {x: 0.9247613, y: 1.1053348, z: -4.686699}
+  - {x: -1.0752387, y: 1.1053348, z: -4.686699}
+  - {x: -0.068390384, y: 1.1053348, z: -4.686699}
+  m_Dering: 1
+--- !u!4 &1822359350
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822359348}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.22, y: 0.32579038, z: -0.72}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 26
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1824291555
 GameObject:
   m_ObjectHideFlags: 0
@@ -11732,6 +11927,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1590718548}
     m_Modifications:
+    - target: {fileID: 2332010653377843792, guid: 3419413d67acc9848b28ae7ff55c5402,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6747646571606199185, guid: 3419413d67acc9848b28ae7ff55c5402,
         type: 3}
       propertyPath: m_RootOrder
@@ -11791,6 +11991,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RoofLight (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7277332208667661894, guid: 3419413d67acc9848b28ae7ff55c5402,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7378815263532552401, guid: 3419413d67acc9848b28ae7ff55c5402,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9116481054540833488, guid: 3419413d67acc9848b28ae7ff55c5402,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12319,6 +12534,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1590718548}
     m_Modifications:
+    - target: {fileID: 2332010653377843792, guid: 3419413d67acc9848b28ae7ff55c5402,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6747646571606199185, guid: 3419413d67acc9848b28ae7ff55c5402,
         type: 3}
       propertyPath: m_RootOrder
@@ -12378,6 +12598,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RoofLight
+      objectReference: {fileID: 0}
+    - target: {fileID: 7277332208667661894, guid: 3419413d67acc9848b28ae7ff55c5402,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7378815263532552401, guid: 3419413d67acc9848b28ae7ff55c5402,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9116481054540833488, guid: 3419413d67acc9848b28ae7ff55c5402,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

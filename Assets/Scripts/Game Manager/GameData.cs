@@ -6,7 +6,7 @@ public class GameData : MonoBehaviour
 {
     public static GameData instance;
 
-    public int[] cupGameResults;
+    public int[] cupGameResults = new int[] { -1, -1, -1, -1, -1, -1};
     public string balloonGameResults;
 
     public Vector3 mainSceneLoadPosition = new Vector3(-19.68f, 0.1956f, 3.47f);
