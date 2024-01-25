@@ -1,5 +1,5 @@
 # TFHOTA
-Members of The Five Horsemen Of The Apocalpse
+Members of The Five Horsemen Of The Apocalypse
 - Sebastian/artist
 - Jip as a programmer
 - Marise as an artist
