@@ -1,13 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
-using UnityEngine.UIElements;
 using System;
-using UnityEngine.Events;
-using UnityEngine.SocialPlatforms.Impl;
-using static Unity.Burst.Intrinsics.X86.Avx;
 using UnityEngine.XR.Interaction.Toolkit;
 
 public class CupGameManager : MonoBehaviour

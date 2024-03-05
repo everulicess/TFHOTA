@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
@@ -26,14 +25,6 @@ public class CoffeeMachineInteraction : MonoBehaviour
     private void Start()
     {
         coffeeParticleSystem.Stop();
-    }
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.C))
-        {
-            GetCoffee();
-        }
-        
     }
     public void ServingState(bool isServing)
     {
